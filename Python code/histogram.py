@@ -1,39 +1,31 @@
 import numpy as np
+import PIL
 import matplotlib.pyplot as plt
-import sys as sys
+import matplotlib.image as image
+import os
+import sys
 
-working_file = ''
-output_file = ''
-xlabel = ''
-ylabel = ''
-label = ''
+inputfile = str(sys.argv[1])
 
-def test_arg():
-    if type(sys.argv[1]) != type('test'):
-        raise AssertionError('File path should be type string')
-    elif type(sys.argv[2]) != type('test'):
-        raise AssertionError('Output name  should be type string')
-    elif type(sys.argv[3]) != type('test'):
-        raise AssertionError('X label should be type string')
-    elif type(sys.argv[4]) != type('test'):
-        raise AssertionError('Y label should be type string')
-    else:
-        print(sys.argv)
-        output_file = sys.argv[2]
-        xlabel = sys.argv[3]
-        xlabel = sys.argv[4]
-        working_file = sys.argv[1]
-        label = sys.argv[5]
+path = os.getcwd()
+PIL.Image.open(path+'\\'+inputfile).save(path+'\\'+inputfile+'.png')
+data = image.imread(path+'\\'+inputfile+'.png')
 
-test_arg()
+plt.rcParams['figure.dpi'] = 200
 
-data = np.loadtxt(working_file)
+x = np.linspace(0,255,256)
+y = np.zeros(256)
+b = np.zeros(256)
+r = np.zeros(256)
 
-x = np.linspace(1,len(data)+1,len(data))
-y = data[:,0]
+for i in range(0,data.shape[1]-1):
+    for j in range(0,data.shape[0]-1):
+        #print(data[j][i][0])
+        y[int((data[j][i][0])*255)] += 1
+        r[int((data[j][i][1])*255)] += 1
+        b[int((data[j][i][2])*255)] += 1
 
-plt.plot(x,y, label=label)
-plt.xlabel(xlabel)
-plt.ylabel(ylabel)
+plt.plot(x, y, 'y.')
+plt.plot(x, r, 'r.')
+plt.plot(x, b, 'b.')
 plt.show()
-plt.savefig(output_file)
