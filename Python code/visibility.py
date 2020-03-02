@@ -63,6 +63,14 @@ highs_loc, highs, lows_loc, lows = find_extremities(10)
 plt.plot(x,data)
 plt.plot(lows_loc,lows, 'ro')
 plt.plot(highs_loc, highs, 'go')
+
+for i in range(0,len(highs)):
+    plt.text(highs_loc[i],125,str(highs[i]), rotation=90)
+
+for i in range(0,len(lows)):
+    plt.text(lows_loc[i],25, str(lows[i]),  rotation=90)
+
+
 plt.grid()
 plt.show()
 
