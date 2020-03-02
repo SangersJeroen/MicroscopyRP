@@ -4,6 +4,8 @@ import os
 import sys
 
 inputfile = str(sys.argv[1])
+printvalues = bool(sys.argv[3])
+threshold = int(sys.argv[2])
 
 path = os.getcwd()
 data = np.loadtxt(path+'\\'+inputfile)
@@ -57,18 +59,19 @@ def find_extremities(threshold):
     return highs_loc, highs, lows_loc, lows
 
 x = np.linspace(1,len(data)+1,len(data))
-highs_loc, highs, lows_loc, lows = find_extremities(10)
+highs_loc, highs, lows_loc, lows = find_extremities(threshold)
 
 
 plt.plot(x,data)
 plt.plot(lows_loc,lows, 'ro')
 plt.plot(highs_loc, highs, 'go')
 
-for i in range(0,len(highs)):
-    plt.text(highs_loc[i],125,str(highs[i]), rotation=90)
+if printvalues == True:
+    for i in range(0,len(highs)):
+        plt.text(highs_loc[i],highs[i]-25,str(highs[i]), rotation=90)
 
-for i in range(0,len(lows)):
-    plt.text(lows_loc[i],25, str(lows[i]),  rotation=90)
+    for i in range(0,len(lows)):
+        plt.text(lows_loc[i],lows[i]+25, str(lows[i]),  rotation=90)
 
 
 plt.grid()
