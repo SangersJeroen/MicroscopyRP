@@ -20,7 +20,6 @@ r = np.zeros(256)
 
 for i in range(0,data.shape[1]-1):
     for j in range(0,data.shape[0]-1):
-        #print(data[j][i][0])
         y[int((data[j][i][0])*255)] += 1
         r[int((data[j][i][1])*255)] += 1
         b[int((data[j][i][2])*255)] += 1
