@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University Assignment Title Page 
+% LaTeX Template
+% Version 1.0 (27/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% OR
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+\usepackage{textcomp}
+\usepackage{afterpage}
+\usepackage{cite}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{mathtools}
+\usepackage[titletoc]{appendix}
+\usepackage{multicol}
+\usepackage[]{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{multicol}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{enumitem}
+%step 1, step 2, etc.
+\newlist{steps}{enumerate}{1}
+\setlist[steps, 1]{label = Step \arabic*:}
+%end
+\usepackage{listings}
+\usepackage{url}
+\usepackage{tabto}
+\usepackage{hyperref}
+\usepackage{babel}
+\usepackage[top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
+\setlength{\parindent}{2em}
+
+\usepackage{array,multirow,graphicx}
+
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
+
+\usepackage{caption} 
+%\captionsetup[table]{skip=5pt}
+
+\usepackage{gensymb}
+\usepackage{fancyhdr}
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+% redefine the plain pagestyle
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyhead[C]{\thepage} % except the center
+}
+
+
+\begin{document}
+
+%Title
+
+\pagenumbering{roman}
+\input{title}
+\addcontentsline{toc}{section}{Abstract}
+\input{abstract.tex}
+\newpage
+
+% Table of contents
+\thispagestyle{empty}
+\addcontentsline{toc}{section}{Table of contents}
+\tableofcontents
+\clearpage
+
+% Content
+
+\newpage
+\pagenumbering{arabic}
+\input{ListOfSymbols.tex}
+\newpage
+\input{introduction}
+\newpage
+\input{Theory.tex}
+\newpage
+\input{experimental method}
+\newpage
+\input{results.tex}
+\newpage
+\input{conclusions}
+\newpage
+\input{literatuurlijst.tex}
+
+%\input{tradeoff}
+
+%Bibliography
+\newpage
+\addcontentsline{toc}{section}{List of references}
+\bibliography{report}
+\bibliographystyle{ieeetr}
+
+% appendices
+
+
+\end{document}
