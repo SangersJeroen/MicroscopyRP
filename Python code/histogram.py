@@ -1,5 +1,5 @@
 import numpy as np
-import PIL
+from PIL import Image
 import matplotlib.pyplot as plt
 import matplotlib.image as image
 import os
@@ -8,7 +8,7 @@ import sys
 inputfile = str(sys.argv[1])
 
 path = os.getcwd()
-PIL.Image.open(path+'\\'+inputfile).save(path+'\\'+inputfile+'.png')
+Image.open(path+'\\'+inputfile).save(path+'\\'+inputfile+'.png')
 data = image.imread(path+'\\'+inputfile+'.png')
 
 plt.rcParams['figure.dpi'] = 200
