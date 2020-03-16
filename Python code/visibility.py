@@ -1,5 +1,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib as mpb
+
+
+#mpb.use("pgf")
+mpb.rcParams['figure.dpi']=300
+mpb.rcParams.update({
+    #"pgf.texsystem": "pdflatex",
+    'font.family': 'serif',
+    #'text.usetex': True,
+    #'pgf.rcfonts': False,
+})
 
 def visibility(array):
     if array.shape[0] != 5:
@@ -31,18 +42,41 @@ for i in range(len(m1g5)):
 for i in range(len(m3g6)):
     m3_visibilities = np.append(m3_visibilities, visibility(m3g6[i]))
 
+plt.subplot(311)
+plt.scatter(spatial_frequencies, m1_visibilities, c='red', marker='.')
+plt.xlabel('spatial frequency $[mm^{-1}]$')
+plt.ylim(0.0,1.2)
+plt.ylabel('Visibility $[-]$')
+plt.title("Highest NA")
+#plt.show()
 
-plt.scatter(spatial_frequencies, m1_visibilities)
+plt.subplot(312)
+plt.scatter(spatial_frequencies, m2_visibilities, c='blue', marker='.')
+plt.xlabel('spatial frequency $[mm^{-1}]$')
+plt.ylim(0.5,1.2)
+plt.ylabel('Visibility $[-]$')
+plt.title("Medium NA")
+#plt.show()
+
+plt.subplot(313)
+plt.scatter(spatial_frequencies[6:35], m3_visibilities, c='green', marker='.')
+plt.xlabel('spatial frequency $[mm^{-1}]$')
+plt.ylabel('Visibility $[-]$')
+plt.ylim(0.5,1.2)
+plt.title("Smallest NA")
+
+
+plt.subplots_adjust(hspace=0.9)
+plt.gcf().set_size_inches(5, 6)
+plt.savefig('visibilities.png',bbox_inches='tight')
+
+'''
+plt.plot(spatial_frequencies, m1_visibilities, 'r.',label='NA = 1')
+plt.plot(spatial_frequencies, m2_visibilities, 'b.',label='NA = 2')
+plt.plot(spatial_frequencies[6:35], m3_visibilities, 'g.',label='NA = 3')
+plt.xlabel('Numercial frequency $mm^{-1}$')
 plt.ylim(0,1.2)
+plt.ylabel('Visibility')
 plt.title("Visibility 1")
 plt.show()
-
-plt.scatter(spatial_frequencies, m2_visibilities)
-plt.ylim(0,1.2)
-plt.title("Visibility 2")
-plt.show()
-
-plt.scatter(spatial_frequencies[6:35], m3_visibilities)
-plt.ylim(0,1.2)
-plt.title("Visibility 3")
-plt.show()
+'''
