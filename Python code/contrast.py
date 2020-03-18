@@ -37,6 +37,15 @@ print(a,b)
 
 new = sigmoid(img)
 
+#mpb.use("pgf")
+mpb.rcParams['figure.dpi']=300
+mpb.rcParams.update({
+    #"pgf.texsystem": "pdflatex",
+    'font.family': 'serif',
+    #'text.usetex': True,
+    #'pgf.rcfonts': False,
+})
+
 plt.hist(img.flatten(),255)
 plt.show()
 plt.imshow(img, cmap=plt.get_cmap('gray'), vmin=0, vmax=255)

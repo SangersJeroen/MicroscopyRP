@@ -32,9 +32,45 @@ In order to find the birefringence, $\delta n$, of the unknown crystal, it is pl
 
 For this experiment it was chosen to find $D$ and $\delta l$ for 5 colour planes. The focussing process was repeated 4 to 5 times for every border that was studied.\\
 
+\subsection{Image improvement methods}
+The features of an image are easier to distinguish when the image has plenty of contrast, an underexposed image might hold a lot of information that is not yet visible for us.\\
+A way of qunatitatively expressing the contrast of an image is through a histogram as outlined in the NI Vision article\cite{histogram_theory}. To create such an histogram a python script has been written. Two example files were worked on by the python file, the result of wich is plotted in figures \ref{fig:lcphoto} and \ref{fig:hcphoto}. Both photos have the same pattern on top but a different shade of grey as a background.\\
 
+\begin{figure}[h!]
+    \centering
+    \begin{minipage}{.5\textwidth}
+      \centering
+      \includegraphics[width=0.9\textwidth,keepaspectratio]{afbeeldingen/histograms/highcontrast.png}
+      \caption{High contrast photo}
+      \label{fig:hcphoto}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+      \centering
+      \includegraphics[width=0.9\textwidth,keepaspectratio]{afbeeldingen/histograms/lowcontrast.png}
+      \caption{Low contrast photo}
+      \label{fig:lcphoto}
+    \end{minipage}
+\end{figure}
 
+As can be seen in figure \ref{fig:hcphoto} the image has high contrast, the peaks from the squigly lines and the background are seperated in the histogram. Figure \ref{fig:lcphoto} has its peaks closer together meaning that its contrast is lower and thus its features are harder to differentiate from the background.\\
+Our goal in this practicum is to devise a way in which we can alter the contrast of a low contrast photo in such a way that it will be easier to distinguish certain features. This method has its drawbacks however since we artificially widen the gap between the peaks which will mean that while we stretch the information between the peaks over a greater intensity range we compress features in the high and low intensity value range.\\
+\\
+One way of widening the gap between the peaks in the histogram is by applying a sigmoid function on the photo, as sigmoid function is a function $f(x)$ that maps its domain to values between zero and one. This sigmoid equation \ref{eq:sigmoid} depends on two parameters $\alpha$ and $\beta$ wich respectively define the center and the width of the function.
 
+\begin{equation}
+    f(x) = \frac{1}{1+e^{-\frac{x-\alpha}{\beta}}}
+    \label{eq:sigmoid}
+\end{equation}
+\newpage
+\begin{wrapfigure}{l}{0.55\textwidth}
+    \centering
+    \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/sigmoid_explained.png}
+    \caption{The example figure modified using a sigmoid function.}
+    \label{fig:sigmoid}
+\end{wrapfigure}
+
+In figure \ref{fig:sigmoid} on the left the low contrast example figure and its histogram are plotted in the top row, in the middle row a sigmoid function has been plotted as well as the median value and the standard deviation of the histogram above denoted by the grey solid and dashed line respectively. The bottom row consists of the histogram of the example image and the image acted on by the sigmoid function. In this example we used a sigmoid function $f'(x)=f(x) \cdot 255$ since we want to map our input values on a domain $[0,255]$ not $[0,1]$, $\alpha$ is the median of the top histogram and $\beta$ its standard deviation.\\
+As can be seen in the figure the peaks of the most common values of the intensity have been spread further apart thus resulting in a higher contrast image.\\
 
 
 

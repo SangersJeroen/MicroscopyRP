@@ -42,7 +42,7 @@ plt.fill_between(np.linspace(0,255,256),0,y/p,color='black')
 
 plt.subplot(122)
 plt.imshow(img, cmap=plt.get_cmap('gray'), vmin=0, vmax=255)
-plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
+#plt.ticklabel_format(style='sci', axis='y', scilimits=(0,0))
 plt.gcf().set_size_inches(6, 2)
 plt.savefig(inputfile.replace('.bmp','')+'histogram.png',bbox_inches='tight')
 
