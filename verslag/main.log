@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  16 MAR 2020 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  19 MAR 2020 09:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -936,14 +936,6 @@ ine 20.
 
 Excluding 'comment' comment.) [4] [5] (results.tex
 
-Package caption Warning: \label without proper reference on input line 10.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table_pixelsize' on page 6 undefined on input line 5.
-
-
-
 LaTeX Warning: Reference `appendix_calibration_4' on page 6 undefined on input 
 line 7.
 
@@ -970,81 +962,73 @@ LaTeX Warning: Reference `eq_u_pixelsize' on page 6 undefined on input line 14.
 
 
 
-Package caption Warning: \label without proper reference on input line 30.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table_magnification' on page 6 undefined on input lin
-e 27.
-
-
-LaTeX Warning: Reference `table_vis' on page 6 undefined on input line 56.
+LaTeX Warning: Reference `table_vis' on page 6 undefined on input line 60.
 
 
 LaTeX Warning: Reference `appendix_vis_table' on page 6 undefined on input line
- 56.
+ 60.
 
 
-LaTeX Warning: Reference `fig_vis_plot' on page 6 undefined on input line 56.
+LaTeX Warning: Reference `fig_vis_plot' on page 6 undefined on input line 60.
 
 
-LaTeX Warning: Reference `appendix_vis_4' on page 6 undefined on input line 56.
+LaTeX Warning: Reference `appendix_vis_4' on page 6 undefined on input line 60.
 
 
 
-LaTeX Warning: Reference `appendix_vis_10' on page 6 undefined on input line 56
+LaTeX Warning: Reference `appendix_vis_10' on page 6 undefined on input line 60
 .
 
 
-LaTeX Warning: Reference `appendix_vis_40' on page 6 undefined on input line 56
+LaTeX Warning: Reference `appendix_vis_40' on page 6 undefined on input line 60
 .
 
 
-LaTeX Warning: Reference `appendix_starch' on page 6 undefined on input line 68
+LaTeX Warning: Reference `appendix_starch' on page 6 undefined on input line 72
 .
 
 
-LaTeX Warning: Reference `fig_ellipse' on page 6 undefined on input line 68.
+LaTeX Warning: Reference `fig_ellipse' on page 6 undefined on input line 72.
 
 
-LaTeX Warning: Reference `fig_bf_planes' on page 6 undefined on input line 76.
+LaTeX Warning: Reference `fig_bf_planes' on page 6 undefined on input line 80.
 
 
-LaTeX Warning: Reference `table_bf' on page 6 undefined on input line 80.
+LaTeX Warning: Reference `table_bf' on page 6 undefined on input line 84.
 
 
 LaTeX Warning: Reference `appendix_table_bf' on page 6 undefined on input line 
-80.
+84.
 
 
-LaTeX Warning: Reference `fig_bf_plot' on page 6 undefined on input line 82.
+LaTeX Warning: Reference `fig_bf_plot' on page 6 undefined on input line 86.
 
 <afbeeldingen/process_visibility/m3_bw.jpg, id=131, 802.49812pt x 590.205pt>
 File: afbeeldingen/process_visibility/m3_bw.jpg Graphic file (type jpg)
 <use afbeeldingen/process_visibility/m3_bw.jpg>
 Package pdftex.def Info: afbeeldingen/process_visibility/m3_bw.jpg  used on inp
-ut line 102.
+ut line 106.
 (pdftex.def)             Requested size: 151.76633pt x 111.61777pt.
 <afbeeldingen/process_visibility/m3_rpg_7.png, id=132, 385.1991pt x 283.2984pt>
 
 File: afbeeldingen/process_visibility/m3_rpg_7.png Graphic file (type png)
 <use afbeeldingen/process_visibility/m3_rpg_7.png>
 Package pdftex.def Info: afbeeldingen/process_visibility/m3_rpg_7.png  used on 
-input line 108.
+input line 112.
 (pdftex.def)             Requested size: 151.76633pt x 111.61848pt.
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 <afbeeldingen/visibilities.png, id=146, 338.2236pt x 396.5214pt>
 File: afbeeldingen/visibilities.png Graphic file (type png)
 <use afbeeldingen/visibilities.png>
-Package pdftex.def Info: afbeeldingen/visibilities.png  used on input line 119.
+Package pdftex.def Info: afbeeldingen/visibilities.png  used on input line 123.
 
 (pdftex.def)             Requested size: 238.49232pt x 279.60207pt.
 
-Underfull \hbox (badness 1337) in paragraph at lines 126--129
+Underfull \hbox (badness 1337) in paragraph at lines 130--133
 \OT1/cmr/m/n/10 thusly increases. Note that only the
  []
 
@@ -1074,11 +1058,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
 Here is how much of TeX's memory you used:
  14806 strings out of 480934
  244365 string characters out of 2899917
- 545703 words of memory out of 3000000
+ 545881 words of memory out of 3000000
  30340 multiletter control sequences out of 15000+200000
  539189 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,100p,1067b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,100p,1067b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/f
@@ -1093,7 +1077,7 @@ ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/vanlo/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vanlo/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (11 pages, 727039 bytes).
+Output written on main.pdf (11 pages, 727037 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
