@@ -5,7 +5,7 @@ This experiment consists of four parts. First the calibration of the microscope.
 The microscope that is used in all experiments is a Leica DM EP microscope. Its manual can be found in appendix \ref{appendix_manual}. This microscope is used in combination with $4\times$, $10\times$, $40\times$ Hi Plan POL objectives with respectfully a 0.10, 0.22 and 0.65 numerical aperture. A color ccd camera in combination with NI Vision Assistant software is used to acquire digital images.
 
 \subsection{Calibration}
-A microscopic ruler is used to measure the length that corresponds to one pixel in an image. This is achieved by focussing on a 1 mm, 100 division ruler and measuring the distance between two focussed, distant division lines and comparing the number of pixels to the physical length. The NI software is used to find the exact location of these two lines and subsequently find the perpendicular projection (see Figure \ref{fig_pixellength_example}. This procedure is repeated for all three objectives. The relative magnification between two objectives, $M_{A,B}$ can subsequently be found using equation \ref{eq_rel_mag}.
+A microscopic ruler is used to measure the length that corresponds to one pixel in an image, $l_{pixel}$. This is achieved by focussing on a 1 mm, 100 division ruler and measuring the distance between two focussed, distant division lines and comparing the number of pixels to the physical length. The NI software is used to find the exact location of these two lines and subsequently find the perpendicular projection (see Figure \ref{fig_pixellength_example}. This procedure is repeated for all three objectives. The relative magnification between two objectives, $M_{A,B}$ can subsequently be found using equation \ref{eq_rel_mag}.
 
 \bigskip
 
@@ -17,20 +17,20 @@ All microscopic size measurements are made by measuring pixels and comparing thi
 
 \subsubsection{Human hair and optical glass fibre}
 
-Measuring the thickness of the human hair and optical glass fibre is done with the aid of the NI Vision software. First finding the two straight lines of the outer edges and subsequently measuring the perpendicular distance between the two. The actual size and error can be calculated using respectfully equation \ref{eq_size_measurement} and \ref{eq_u_size_measurement}. 
+Measuring the thickness of the human hair and optical glass fibre is done with the aid of the NI Vision software. First finding the two straight lines of the outer edges and subsequently measuring the perpendicular distance between the two, $n_{hair}$ and $n_{gf}$ in pixels. The actual size, $l_{hair}$ and $l_{gf}$, and error can be calculated using respectfully equation \ref{eq_size_measurement} and \ref{eq_u_size_measurement}. 
 
 \subsubsection{Starch particles}
 
-In order to measure the size of individual starch particles, a small amount of starch is mixed with oil. Images are taken at different locations in the mixture. For ellipse-shaped particles that are focussed in the image, an ellipse can manually be fitted.
+In order to measure the size of individual starch particles, a small amount of starch is mixed with oil and images are taken at different locations in the mixture. For ellipse-shaped particles that are focussed in the image, an ellipse can manually be fitted. Using the values for the major and minor axis, respectfully $a$ and $b$, the estimated errors and equations \ref{eq_ellipse_area} and \ref{eq_ellipse_area_error}, the area of the ellipse, $A$, and corresponding error can be calculated.
 
 For this experiment it was chosen to find the ellipse size for 30 particles.
 
 
 \subsection{Birefringence}
 
-In order to find the birefringence, $\delta n$, of the unknown crystal, it is placed in the microscope with the polariser crossed with respect to the analyser. The crystal is then turned until bright colours can be seen. Now the path difference, $\delta l$, is measured as a function of the thickness, $D$, of the crystal. $D$ can be found by viewing a border between adjacent colour planes and subsequently noting the focussing position, $f$, of each colour plane. Taking the difference between two values of $f$ will give the difference in thickness, $d$, between two colour planes. The bottom of the sample (black) is also to be taken into account with the same procedure as described above. 
+In order to find the birefringence, $\Delta n$, of the unknown crystal, it is placed in the microscope with the polariser crossed with respect to the analyser. The crystal is then turned until bright colours can be seen. Now the difference in path length, $\Delta l_{path}$, is measured as a function of the thickness, $D$, of the crystal. $D$ can be found by viewing a border between adjacent colour planes and subsequently noting the focussing position, $f$, of each colour plane. Taking the difference between two values of $f$ will give the difference in thickness, $d$, between two colour planes. The bottom of the sample (black) is also to be taken into account with the same procedure as described above. The birefringence can subsequently be found using orthogonal distance regression with equation \ref{eq_bf} and the acquired data.
 
-For this experiment it was chosen to find $D$ and $\delta l$ for 5 colour planes. The focussing process was repeated 4 to 5 times for every border that was studied.
+For this experiment it was chosen to find $D$ and $\Delta l_{path}$ for 5 colour planes. The focussing process was repeated 4 to 5 times for every border that was studied.
 
 
 
