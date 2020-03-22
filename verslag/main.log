@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  21 MAR 2020 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  22 MAR 2020 13:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -983,7 +983,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--126
 
 [1
 
-] (introduction.tex Excluding 'comment' comment.) [2] (Theory.tex) [3]
+] (introduction.tex Excluding 'comment' comment.) [2] (Theory.tex
+<afbeeldingen/compound_microscope.png, id=124, 359.84438pt x 624.08156pt>
+File: afbeeldingen/compound_microscope.png Graphic file (type png)
+<use afbeeldingen/compound_microscope.png>
+Package pdftex.def Info: afbeeldingen/compound_microscope.png  used on input li
+ne 6.
+(pdftex.def)             Requested size: 108.405pt x 188.00677pt.
+
+
+LaTeX Warning: Citation `hecht' on page 3 undefined on input line 7.
+
+
+LaTeX Warning: Citation `hecht' on page 3 undefined on input line 7.
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 7--7
+\OT1/cmr/m/n/9 the focussing distance of the
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
+.
+
+Excluding 'comment' comment.) [3 <./afbeeldingen/compound_microscope.png>]
 ("experimental method.tex"
 
 LaTeX Warning: Reference `fig_pixellength_example' on page 4 undefined on input
@@ -1027,6 +1050,9 @@ LaTeX Warning: Reference `eq_ellipse_area' on page 4 undefined on input line 24
 LaTeX Warning: Reference `eq_ellipse_area_error' on page 4 undefined on input l
 ine 24.
 
+
+LaTeX Warning: Reference `eq_bf' on page 4 undefined on input line 31.
+
 [4] Excluding 'comment' comment.) [5] (results.tex
 
 LaTeX Warning: Reference `appendix_calibration' on page 6 undefined on input li
@@ -1068,11 +1094,7 @@ LaTeX Warning: Reference `appendix_vis_10' on page 6 undefined on input line 60
 LaTeX Warning: Reference `appendix_vis_40' on page 6 undefined on input line 60
 .
 
-
-LaTeX Warning: Reference `fig_histogram_zetmeel' on page 6 undefined on input l
-ine 72.
-
-<afbeeldingen/histogram_zetmeel.png, id=150, 462.528pt x 344.0052pt>
+<afbeeldingen/histogram_zetmeel.png, id=164, 462.528pt x 344.0052pt>
 File: afbeeldingen/histogram_zetmeel.png Graphic file (type png)
 <use afbeeldingen/histogram_zetmeel.png>
 Package pdftex.def Info: afbeeldingen/histogram_zetmeel.png  used on input line
@@ -1081,15 +1103,12 @@ Package pdftex.def Info: afbeeldingen/histogram_zetmeel.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig_bf_planes' on page 6 undefined on input line 85.
-
-<afbeeldingen/bf_colourplanes.png, id=152, 735.49782pt x 593.21625pt>
+<afbeeldingen/bf_colourplanes.png, id=166, 735.49782pt x 593.21625pt>
 File: afbeeldingen/bf_colourplanes.png Graphic file (type png)
 <use afbeeldingen/bf_colourplanes.png>
 Package pdftex.def Info: afbeeldingen/bf_colourplanes.png  used on input line 8
 9.
-(pdftex.def)             Requested size: 284.52756pt x 229.48874pt.
+(pdftex.def)             Requested size: 227.62204pt x 183.58737pt.
 [6]
 
 LaTeX Warning: Reference `appendix_bf' on page 7 undefined on input line 94.
@@ -1097,51 +1116,73 @@ LaTeX Warning: Reference `appendix_bf' on page 7 undefined on input line 94.
 
 LaTeX Warning: Reference `fig_bf_plot' on page 7 undefined on input line 96.
 
-<afbeeldingen/process_visibility/m3_bw.jpg, id=168, 802.49812pt x 590.205pt>
+<afbeeldingen/bf_plot.png, id=179, 462.528pt x 344.0052pt>
+File: afbeeldingen/bf_plot.png Graphic file (type png)
+<use afbeeldingen/bf_plot.png>
+Package pdftex.def Info: afbeeldingen/bf_plot.png  used on input line 100.
+(pdftex.def)             Requested size: 512.1496pt x 380.93169pt.
+
+Overfull \hbox (78.52959pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `eq_bf' on page 7 undefined on input line 101.
+
+
+LaTeX Warning: Reference `eq_bf' on page 7 undefined on input line 101.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<afbeeldingen/process_visibility/m3_bw.jpg, id=180, 802.49812pt x 590.205pt>
 File: afbeeldingen/process_visibility/m3_bw.jpg Graphic file (type jpg)
 <use afbeeldingen/process_visibility/m3_bw.jpg>
 Package pdftex.def Info: afbeeldingen/process_visibility/m3_bw.jpg  used on inp
-ut line 114.
+ut line 118.
 (pdftex.def)             Requested size: 151.76633pt x 111.61777pt.
-<afbeeldingen/process_visibility/m3_rpg_7.png, id=169, 385.1991pt x 283.2984pt>
+<afbeeldingen/process_visibility/m3_rpg_7.png, id=181, 385.1991pt x 283.2984pt>
 
 File: afbeeldingen/process_visibility/m3_rpg_7.png Graphic file (type png)
 <use afbeeldingen/process_visibility/m3_rpg_7.png>
 Package pdftex.def Info: afbeeldingen/process_visibility/m3_rpg_7.png  used on 
-input line 120.
+input line 124.
 (pdftex.def)             Requested size: 151.76633pt x 111.61848pt.
-[7 <./afbeeldingen/histogram_zetmeel.png> <./afbeeldingen/bf_colourplanes.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-<afbeeldingen/visibilities.png, id=179, 338.2236pt x 396.5214pt>
+[7 <./afbeeldingen/histogram_zetmeel.png> <./afbeeldingen/bf_colourplanes.png>]
+<afbeeldingen/visibilities.png, id=190, 338.2236pt x 396.5214pt>
 File: afbeeldingen/visibilities.png Graphic file (type png)
 <use afbeeldingen/visibilities.png>
-Package pdftex.def Info: afbeeldingen/visibilities.png  used on input line 131.
+Package pdftex.def Info: afbeeldingen/visibilities.png  used on input line 135.
 
 (pdftex.def)             Requested size: 238.49232pt x 279.60207pt.
 
-Underfull \hbox (badness 1337) in paragraph at lines 138--141
+Underfull \hbox (badness 1337) in paragraph at lines 142--145
 \OT1/cmr/m/n/10 thusly increases. Note that only the
  []
 
-Excluding 'comment' comment.) [8 <./afbeeldingen/process_visibility/m3_bw.jpg> 
-<./afbeeldingen/process_visibility/m3_rpg_7.png> <./afbeeldingen/visibilities.p
-ng>] (conclusions.tex)
+[8 <./afbeeldingen/bf_plot.png> <./afbeeldingen/process_visibility/m3_bw.jpg> <
+./afbeeldingen/process_visibility/m3_rpg_7.png> <./afbeeldingen/visibilities.pn
+g>] Excluding 'comment' comment.) [9] (conclusions.tex)
 Overfull \hbox (25.54752pt too wide) in paragraph at lines 2--136
 \OT1/cmr/m/n/10 work, you discuss more speculative conclusions, ad you may do s
 uggestions for further (improved/extended)
  []
 
-[9] (literatuurlijst.tex)
+[10] (literatuurlijst.tex)
 No file main.bbl.
 (appendix_manual.tex
 
 pdfTeX warning: pdflatex (file ./afbeeldingen/manual.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=189, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=209, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf>
 Package pdftex.def Info: afbeeldingen/manual.pdf  used on input line 3.
@@ -1162,7 +1203,7 @@ pdfTeX warning: pdflatex (file ./afbeeldingen/manual.pdf): PDF inclusion: found
 
 pdfTeX warning: pdflatex (file ./afbeeldingen/manual.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=192, page=8, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=212, page=8, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf, page 8>
 Package pdftex.def Info: afbeeldingen/manual.pdf , page8 used on input line 3.
@@ -1218,7 +1259,7 @@ pdfTeX warning: pdflatex (file ./afbeeldingen/manual.pdf): PDF inclusion: found
 
 pdfTeX warning: pdflatex (file ./afbeeldingen/manual.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=220, page=10, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=239, page=10, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf, page 10>
 Package pdftex.def Info: afbeeldingen/manual.pdf , page10 used on input line 6.
@@ -1254,7 +1295,7 @@ Package pdftex.def Info: afbeeldingen/manual.pdf , page10 used on input line 6.
 
 pdfTeX warning: pdflatex (file ./afbeeldingen/manual.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=226, page=11, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=245, page=11, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf, page 11>
 Package pdftex.def Info: afbeeldingen/manual.pdf , page11 used on input line 6.
@@ -1283,19 +1324,19 @@ LaTeX Warning: Reference `fig_pixelszie_10x' on page iv undefined on input line
 LaTeX Warning: Reference `fig_pixelszie_40x' on page iv undefined on input line
  3.
 
-<afbeeldingen/pixelsize/pixelsize_4x.jpg, id=231, 2071.74pt x 1549.79pt>
+<afbeeldingen/pixelsize/pixelsize_4x.jpg, id=250, 2071.74pt x 1549.79pt>
 File: afbeeldingen/pixelsize/pixelsize_4x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_4x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_4x.jpg  used on input
  line 7.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
-<afbeeldingen/pixelsize/pixelsize_10x.jpg, id=232, 2071.74pt x 1549.79pt>
+<afbeeldingen/pixelsize/pixelsize_10x.jpg, id=251, 2071.74pt x 1549.79pt>
 File: afbeeldingen/pixelsize/pixelsize_10x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_10x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_10x.jpg  used on inpu
 t line 15.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
-<afbeeldingen/pixelsize/pixelsize_40x.jpg, id=233, 2071.74pt x 1549.79pt>
+<afbeeldingen/pixelsize/pixelsize_40x.jpg, id=252, 2071.74pt x 1549.79pt>
 File: afbeeldingen/pixelsize/pixelsize_40x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_40x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_40x.jpg  used on inpu
@@ -1303,12 +1344,12 @@ t line 23.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
 ) [4 <./afbeeldingen/pixelsize/pixelsize_4x.jpg> <./afbeeldingen/pixelsize/pixe
 lsize_10x.jpg> <./afbeeldingen/pixelsize/pixelsize_40x.jpg>] (appendix_size.tex
-<afbeeldingen/size/hair.jpg, id=243, 2071.74pt x 1549.79pt>
+<afbeeldingen/size/hair.jpg, id=260, 2071.74pt x 1549.79pt>
 File: afbeeldingen/size/hair.jpg Graphic file (type jpg)
 <use afbeeldingen/size/hair.jpg>
 Package pdftex.def Info: afbeeldingen/size/hair.jpg  used on input line 8.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
-<afbeeldingen/size/gf.jpg, id=244, 2071.74pt x 1549.79pt>
+<afbeeldingen/size/gf.jpg, id=261, 2071.74pt x 1549.79pt>
 File: afbeeldingen/size/gf.jpg Graphic file (type jpg)
 <use afbeeldingen/size/gf.jpg>
 Package pdftex.def Info: afbeeldingen/size/gf.jpg  used on input line 16.
@@ -1331,7 +1372,7 @@ LaTeX Warning: Reference `eq_u_ellipse_area' on page vi undefined on input line
  29.
 
 [6]
-<afbeeldingen/size/zetmeel/zetmeel_1.png, id=264, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_1.png, id=282, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_1.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_1.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_1.png  used on input
@@ -1342,7 +1383,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_2.png, id=265, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_2.png, id=283, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_2.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_2.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_2.png  used on input
@@ -1353,7 +1394,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_3.png, id=266, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_3.png, id=284, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_3.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_3.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_3.png  used on input
@@ -1364,7 +1405,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_4.png, id=267, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_4.png, id=285, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_4.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_4.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_4.png  used on input
@@ -1375,7 +1416,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_5.png, id=268, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_5.png, id=286, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_5.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_5.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_5.png  used on input
@@ -1386,7 +1427,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 105--106
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_6.png, id=269, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_6.png, id=287, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_6.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_6.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_6.png  used on input
@@ -1413,43 +1454,37 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 16775 strings out of 480934
- 284036 string characters out of 2899917
+ 16798 strings out of 480934
+ 284583 string characters out of 2899917
  749469 words of memory out of 3000000
- 32219 multiletter control sequences out of 15000+200000
+ 32235 multiletter control sequences out of 15000+200000
  539797 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,100p,1067b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.12} has been referenced but does no
-t exist, replaced by a fixed one
-
-<C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/vanlo/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/vanlo/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vanlo/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
-Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi9.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vanlo/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vanlo/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/vanl
-o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (19 pages, 25997651 bytes).
+<C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/vanlo/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/vanlo/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vanl
+o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C
+:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vanlo/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vanlo/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/va
+nlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (20 pages, 26085236 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
