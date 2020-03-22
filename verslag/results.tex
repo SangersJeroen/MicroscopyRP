@@ -4,10 +4,10 @@
 
 The values that have been found for $l_{real}$, $n$, $l_{pixel}$ and the corresponding error are presented in table \ref{table_pixelsize} for each objective. It was estimated that $u(n) = 4$.
 
-The images corresponding to each measurement are presented in appendix \ref{appendix_calibration_4}, \ref{appendix_calibration_10} and \ref{appendix_calibration_40}.
+The images corresponding to each measurement are presented in figures \ref{fig_pixelsize_4x}, \ref{fig_pixelsize_10x} and \ref{fig_pixelsize_40x} in appendix \ref{appendix_calibration}.
 
 \begin{table}[h!]
-\label{table_pixelsize}
+
 
 \centering
 \captionsetup{font=small, justification = centering}
@@ -21,13 +21,15 @@ $4\times$ & 1 & 6.85$\cdot 10^2$ & 1.461$\cdot 10^{-6}$ & 9$\cdot 10^{-9}$\\
 $10\times$ & 0.8 & 1.247$\cdot 10^3$ & 6.42$\cdot 10^{-7}$ & 2$\cdot 10^{-9}$ \\
 $40\times$ & 0.2 & 1.250$\cdot 10^3$ & 1.600$\cdot 10^{-7}$ & 5$\cdot 10^{-10}$ \\ \hline
 \end{tabular}
+
+\label{table_pixelsize}
 \end{table}
 
 
 The values that have been found for $M_{A,B}$ for the different objective combinations are presented in table \ref{table_magnification}.
 
 \begin{table}[h!]
-\label{table_magnification}
+
 
 \centering
 \captionsetup{font=small, justification = centering}
@@ -41,12 +43,14 @@ $\times 4$ & $\times 10$ & 2.5 & 2.28 & 2$\cdot 10^{-2}$\\
 $\times 4$& $\times 40$ & 10 & 9.13 & 6$\cdot 10^{-2}$ \\
 $\times 10$ & $\times 40$ & 4 & 4.01 & 2$\cdot 10^{-2}$ \\ \hline
 \end{tabular}
-\end{table}
 
 
-As expected, the accuracy for the higher magnification objectives is better. Meaning that images from an objective with a higher magnification, corresponds with a smaller value for $l_{pixel}$. However, not all the values of $M_{A,B}$ match the theoretical relative magnification of $\frac{B}{A}$ taking into account the error.
+\label{table_magnification}
+\end{table} 
 
-since only the values of $M_{A,B}$ with $B = 40$ do not match the theoretical relative magnification, it would suggest that only the $\times 40$ objective is not true to its specifications. More research could be done to prove this with smaller uncertainty.
+As expected, the accuracy for the higher magnification objectives is better. Meaning that images from an objective with a higher magnification, corresponds with a smaller value for $l_{pixel}$. However, taking into account the error, not all the values of $M_{A,B}$ match the theoretical relative magnification of $\frac{B}{A}$.
+
+since only the values of $M_{A,B}$ with $B = 40$ do not match the theoretical relative magnification, it would suggest that only the $\times 40$ objective is not true to its specifications. More research should be done to prove this.
 
 Apart from the fact that the objectives might not be true to specifications, this does not affect the results of this experiment. It proves, however, the importance of calibrating a microscopy set-up in order to get valid size measurements.
 
@@ -61,31 +65,45 @@ The values that have been found for $I_{max}$, $I_{min}$, $V_{is}$ and the corre
 
 \subsection{Size measurements}
 
-The values that have been found for $d_{hair}$ and $d_{gf}$ are respectively $d_{hair} =  $ and $d_{gf} =  $.
+The values that have been found for $d_{hair}$ and $d_{gf}$ are respectively $d_{hair} = 6.57 \pm 0.08 \cdot 10^{-5} m $ and $d_{gf} =  1.26 \pm 0.01 \cdot 10^{-4} m $. The images used for the measurements are presented in appendix \ref{appendix_size}.
 
-% analysis
+The errors of the values for $d_{hair}$ and $d_{gf}$ are in the order of 1 \%. Furthermore, the values for $d_{hair}$ and $d_{gf}$ are of expected magnitude. 
 
-The images used for this part of the experiment and the values that have been found for $a$, $b$, $A$ and the corresponding errors can be  in appendix \ref{appendix_starch}. A histogram of the values for $A$ is presented in figure \ref{fig_ellipse}.
+The values for $a$, $b$, $A$, the corresponding errors and the corresponding images that have been used can be found in appendix \ref{appendix_size}. A histogram of the values for $A$ is presented in figure \ref{fig_histogram_zetmeel}.
 
-% particle size histogram
-
-% analysis
+\begin{figure}[h!]
+	\centering  
+    \includegraphics[width=10cm,keepaspectratio]{afbeeldingen/histogram_zetmeel.png}
+    \caption{Histogram of the values of $A$ for 30 starch particles.}
+    \label{fig_histogram_zetmeel}
+\end{figure}
+    
+% ANALYSIS
 
 \subsection{Birefringence}
 
 The colour planes that were taken into account for this experiment can be seen in figure \ref{fig_bf_planes} in which each Roman numeral corresponds to a colour plane.
 
-% FIG_BF_PLANES
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=8cm]{afbeeldingen/bf_colourplanes.png}
+	\caption{Image of a birefringent crystal in a polarizing microscope. The Roman numerals correspond to the different colour planes that were taken into account for this experiment.}
+	\label{fig_bf_planes}
+\end{figure}
 
-The values that have been found for $D$, $\delta d$ and the corresponding errors are presented in table \ref{table_bf} in appendix \ref{appendix_table_bf}.
+The values that have been found for $f$, $\Delta d$, $D$ and the corresponding errors are presented in appendix \ref{appendix_bf}.
 
-In figure \ref{fig_bf_plot}, $\delta d$ is plotted as a function of $D$.
+In figure \ref{fig_bf_plot}, $\Delta d$ is plotted as a function of $D$.
 
-%BF PLOT
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=18cm]{afbeeldingen/bf_plot.png}
+	\caption{$\Delta l_{path}$ plotted as a function of $D$. The data points have errorbars in $\Delta l_{path}$ and $D$. The straight line is a best fit to the data according to an orthogonal distance regression using equation \ref{eq_bf}.} 
+\end{figure}
 
-It follows from the orthogonal distance regression that $\delta n = XXX$.
+It follows from the orthogonal distance regression that $\Delta n = 6.6 \pm 0.3 \cdot 10^{-2}$.
 
-%ANALYSIS
+
 
 
 
