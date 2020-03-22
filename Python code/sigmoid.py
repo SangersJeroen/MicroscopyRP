@@ -15,8 +15,10 @@ data = path+'\\'+inputfile
 img = np.array(Image.open(data).convert('L'))
 img_clean = img.flatten()
 
-a = np.average(img_clean)
-b = np.std(img_clean)
+img_cleaned = np.asarray([i for i in img_clean if i != 0 and i!=255])
+
+a = np.average(img_cleaned)
+b = np.std(img_cleaned)
 
 print(a,b)
 
