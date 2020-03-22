@@ -52,7 +52,6 @@
 \usepackage{caption}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{enumitem}
-\usepackage{pdfpages}
 %step 1, step 2, etc.
 \newlist{steps}{enumerate}{1}
 \setlist[steps, 1]{label = Step \arabic*:}
@@ -87,19 +86,11 @@
 \usepackage{wrapfig}
 \usepackage{comment}
 
-\makeatletter
-\renewcommand{\numberline}[1]{#1~}
-\makeatother
-
 % redefine the plain pagestyle
 \fancypagestyle{plain}{%
 \fancyhf{} % clear all header and footer fields
 \fancyhead[C]{\thepage} % except the center
 }
-\setcounter{tocdepth}{2}
-
-
-\usepackage{mwe}
 
 
 \begin{document}
@@ -143,20 +134,8 @@
 \addcontentsline{toc}{section}{List of references}
 \bibliography{report}
 \bibliographystyle{ieeetr}
-\newpage
-\pagenumbering{roman}
 
-\begin{appendix}
-\addcontentsline{toc}{section}{Appendices}
-\renewcommand{\thesubsection}{Appendix \Alph{subsection}}
+% appendices
 
-
-\input{appendix_manual}
-\newpage
-\input{appendix_calibration}
-\newpage
-\input{appendix_size}
-
-\end{appendix}
 
 \end{document}
