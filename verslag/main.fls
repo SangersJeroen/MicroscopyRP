@@ -149,6 +149,17 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
@@ -174,10 +185,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
@@ -198,6 +205,44 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mwe\mwe.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mwe\mwe.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\nul:.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\nul:.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\nul:.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\nul:.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3deprecation.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3deprecation.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.aux
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.aux
 OUTPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.aux
@@ -223,6 +268,10 @@ OUTPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.pdf
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.out
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.out
 OUTPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.out
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\title.tex
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\title.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
@@ -247,29 +296,13 @@ INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\introduction.tex
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\introduction.tex
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\Theory.tex
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\Theory.tex
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\experimental method.tex
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\experimental method.tex
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\compound_microscope.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\compound_microscope.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\compound_microscope.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\compound_microscope.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\compound_microscope.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx9.tfm
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\results.tex
-INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\results.tex
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
@@ -279,6 +312,42 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm0900.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm0600.tfm
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\experimental method.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\experimental method.tex
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\highcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histograms\lowcontrast.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\sigmoid_explained.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\results.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\results.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histogram_zetmeel.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histogram_zetmeel.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histogram_zetmeel.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histogram_zetmeel.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\histogram_zetmeel.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_colourplanes.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_colourplanes.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_colourplanes.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_colourplanes.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_colourplanes.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_plot.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_plot.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_plot.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_plot.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\bf_plot.png
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\process_visibility\m3_bw.jpg
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\process_visibility\m3_bw.jpg
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\process_visibility\m3_bw.jpg
@@ -301,6 +370,126 @@ INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\literatuurlijst.tex
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.bbl
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.bbl
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_manual.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_manual.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\manual.pdf
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_calibration.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_calibration.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_4x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_4x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_4x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_4x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_4x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_10x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_10x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_10x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_10x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_10x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_40x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_40x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_40x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_40x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\pixelsize\pixelsize_40x.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_size.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_size.tex
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\hair.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\hair.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\hair.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\hair.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\hair.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\gf.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\gf.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\gf.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\gf.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\gf.jpg
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_1.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_1.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_1.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_1.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_1.png
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx8.tfm
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_2.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_2.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_2.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_2.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_2.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_3.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_3.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_3.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_3.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_3.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_4.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_4.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_4.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_4.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_4.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_5.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_5.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_5.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_5.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_5.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_6.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_6.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_6.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_6.png
+INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\afbeeldingen\size\zetmeel\zetmeel_6.png
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.aux
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.out
 INPUT c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.out
@@ -308,6 +497,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx8.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
@@ -324,6 +515,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
@@ -332,5 +525,9 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb

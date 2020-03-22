@@ -5,4 +5,9 @@
   \url{https://www.ni.com/nl-nl/innovations/white-papers/06/image-processing-with-ni-vision-development-module.html},
   mar 2019.
 
+\bibitem{article_sigmoid}
+D.~S. Lal and M.~Chandra, ``Efficient algorithm for contrast enhancement of
+  natural images,'' {\em International Arab Journal of Information Technology},
+  vol.~11, pp.~96--102, 01 2014.
+
 \end{thebibliography}
