@@ -13,9 +13,7 @@ path = os.getcwd()
 data = path+'\\'+inputfile
 
 img = np.array(Image.open(data).convert('L'))
-img_clean = img.flatten()
-
-img_cleaned = np.asarray([i for i in img_clean if i != 0 and i!=255])
+img_cleaned = np.asarray([i for i in img.flatten() if i != 0 and i!=255])
 
 a = np.average(img_cleaned)
 b = np.std(img_cleaned)
