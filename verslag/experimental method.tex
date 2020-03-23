@@ -3,6 +3,7 @@
 This experiment consists of four parts. First the calibration of the microscope. Secondly size measurements on respectively a human hair, an optical glass fibre and starch particles. Thirdly determining the birefringence of an unknown crystal and finally the computerized improvement of an image of a biological fungus sample. The different experimental methods will be treated separately.
 
 \subsection{Calibration}
+\label{expmeth_calibration}
 A microscopic ruler is used to measure the length that corresponds to one pixel in an image, $l_{pixel}$. This is achieved by focussing on a 1 mm, 100 division ruler and measuring the distance between two focussed, distant division lines and comparing the number of pixels to the physical length. The NI software is used to find the exact location of these two lines and subsequently find the perpendicular projection. This procedure is repeated for all three objectives. The relative magnification between two objectives, $M_{A,B}$ can subsequently be found using equation \ref{eq_rel_mag}.
 
 \bigskip
@@ -27,7 +28,7 @@ For this experiment it was chosen to find the ellipse size for 30 particles.
 
 \subsection{Birefringence}
 
-In order to find the birefringence, $\Delta n$, of the unknown crystal, it is placed in the microscope with the polariser crossed with respect to the analyser. The crystal is then turned until bright colours can be seen. Now the difference in path length, $\Delta l_{path}$, is measured as a function of the thickness, $D$, of the crystal. $D$ can be found by viewing a border between adjacent colour planes and subsequently noting the focussing position, $f$, of each colour plane. Taking the difference between two values of $f$ will give the difference in thickness, $d$, between two colour planes. The bottom of the sample (black) is also to be taken into account with the same procedure as described above. The birefringence can subsequently be found using orthogonal distance regression with equation \ref{eq_bf} and the acquired data.
+In order to find the birefringence, $\Delta n$, of the unknown crystal, it is placed in the microscope with the polariser crossed with respect to the analyser. The crystal is then turned until bright colours can be seen. Now the difference in path length, $\Delta l_{path}$, is measured as a function of the thickness, $D$, of the crystal. $D$ can be found by viewing a border between adjacent colour planes and subsequently noting the focussing position, $f$, of each colour plane. Taking the difference between two values of $f$ will give the difference in thickness, $\Delta d$, between two colour planes. Simple addition and subtraction will give the values for $D$. The bottom of the sample (black) is also to be taken into account with the same procedure as described above. The birefringence can subsequently be found using orthogonal distance regression with equation \ref{eq_bf} and the acquired data.
 
 For this experiment it was chosen to find $D$ and $\Delta l_{path}$ for 5 colour planes. The focussing process was repeated 4 to 5 times for every border that was studied.
 

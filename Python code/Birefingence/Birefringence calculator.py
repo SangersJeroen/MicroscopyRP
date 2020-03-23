@@ -49,7 +49,7 @@ D = np.array([D_1, D_2, D_3, D_5])
 D_2 = np.array([D_1, D_2, D_3, D_4_b, D_5])
 print(D)
 
-
+print(D_4)
     # The path difference for the colours in order from thin to thicker layer
 delay_1 = np.array([270, 510, 600, 1210])*1e-9
 delay_2 = np.array([270, 960, 1150, 640, 1700])*1e-9

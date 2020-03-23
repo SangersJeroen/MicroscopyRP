@@ -25,61 +25,9 @@ $40\times$ & 0.2 & 1.250$\cdot 10^3$ & 1.600$\cdot 10^{-7}$ & 5$\cdot 10^{-10}$ 
 \label{table_pixelsize}
 \end{table}
 
-
 As expected, the accuracy for the higher magnification objectives is better. Meaning that images from an objective with a higher magnification, corresponds with a smaller value for $l_{pixel}$. 
 
 \bigskip
-
-
-The values that have been found for $I_{max}$, $I_{min}$, $V_{is}$ and the corresponding errors are presented in table \ref{table_vis} in appendix \ref{appendix_vis_table}. In figure \ref{fig_vis_plot}, $V_{is}$ is plotted as a function of the spatial frequency for each objective. The images corresponding the measurements are presented in appendix \ref{appendix_vis_4}, \ref{appendix_vis_10} and \ref{appendix_vis_40}.
-
-%plot_visibility
-
-% Analysis
-
-\subsection{Size measurements}
-
-The values that have been found for $d_{hair}$ and $d_{gf}$ are respectively $d_{hair} = 6.57 \pm 0.08 \cdot 10^{-5} m $ and $d_{gf} =  1.26 \pm 0.01 \cdot 10^{-4} m $. The images used for the measurements are presented in\ref{appendix_size}.
-
-The errors of the values for $d_{hair}$ and $d_{gf}$ are in the order of 1 \%. Furthermore, the values for $d_{hair}$ and $d_{gf}$ are of expected magnitude.
-
-\bigskip
-
-The values for $a$, $b$, $A$, the corresponding errors and the corresponding images that have been used can be found in \ref{appendix_size}. A histogram of the values for $A$ is presented in figure \ref{fig_histogram_zetmeel}.
-
-\begin{figure}[h!]
-	\centering
-    \includegraphics[width=10cm,keepaspectratio]{afbeeldingen/histogram_zetmeel.png}
-    \caption{Histogram of the values of $A$ for 30 starch particles.}
-    \label{fig_histogram_zetmeel}
-\end{figure}
-
-% ANALYSIS
-
-\subsection{Birefringence}
-
-The colour planes that were taken into account for this experiment can be seen in figure \ref{fig_bf_planes} in which each Roman numeral corresponds to a colour plane.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=8cm]{afbeeldingen/bf_colourplanes.png}
-	\caption{Image of a birefringent crystal in a polarizing microscope. The Roman numerals correspond to the different colour planes that were taken into account for this experiment.}
-	\label{fig_bf_planes}
-\end{figure}
-
-The values that have been found for $f$, $\Delta d$, $D$ and the corresponding errors are presented in appendix \ref{appendix_bf}.
-
-In figure \ref{fig_bf_plot}, $\Delta d$ is plotted as a function of $D$.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=18cm]{afbeeldingen/bf_plot.png}
-	\caption{$\Delta l_{path}$ plotted as a function of $D$. The data points have errorbars in $\Delta l_{path}$ and $D$. The straight line is a best fit to the data according to an orthogonal distance regression using equation \ref{eq_bf}.}
-\end{figure}
-
-It follows from the orthogonal distance regression that $\Delta n = 6.6 \pm 0.3 \cdot 10^{-2}$.
-
-\newpage
 
 \subsection{Resolving power}
 \begin{figure}[h!]
@@ -98,21 +46,82 @@ It follows from the orthogonal distance regression that $\Delta n = 6.6 \pm 0.3 
     \end{minipage}
 \end{figure}
 
-The above photos are the result of the process outlined in the previous section. The high an low values of the line trace were manually read of the photos and entered into a python script capable of calculating the visibility values for each magnification and spatial frequency. The result of which can be seen in figure \ref{fig:visibilities}.\\
 
-\begin{wrapfigure}{l}{0.55\textwidth}
+
+The above photos are the result of the process outlined in the section \ref{expmeth_calibration}. The high an low values of the line trace were manually read from the images and entered into a python script to calculating the visibility values for each magnification and spatial frequency. The result of which can be seen in figure \ref{fig:visibilities}.\\
+
+
+The data is plotted in such a way that the highest subplot has the lowest magnification and the lowest subplot has the highest magnification. Each subplot has the dimensionless visibility number plotted on the vertical axis and the spatial frequency plotted on the horizontal axis. We chose this layout since we expect the visibility to decrease when the lines get closer together and the spatial frequency consequently increases. Note that only the vertical visibility axis of the highest sub-plot starts with a visibility of zero.\\
+What we see is not surprising when we also take into account the photos in the appendix. As can be seen on these photos the $40\times$ objective has the smallest numerical aperture, therefore all three traced groups are clearly resolvable. Thus, the visibility won't drop as much for the $4\times$ objective when the spatial frequency increases.\\
+Something noticeable however, is that the highest magnification plot starts of with the lowest visibility value. This has to do with the fact that this smaller aperture also catches less light, the brightest spot in its photo is evidently less bright than that of the other two apertures. This can be seen when taking a look at either the line-traces or the photos in the appendix.
+
+\begin{figure}[h!]
     \centering
-    \vspace{-3mm}
-    \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/visibilities.png}
+    \includegraphics[width=8cm,keepaspectratio]{afbeeldingen/visibilities.png}
     \caption{Plots of the visibilities per numerical aperature.}
     \label{fig:visibilities}
-    \vspace{0mm}
-\end{wrapfigure}
+\end{figure}
 
-\vspace{-7mm}
-The data is plotted in such a way that the highest subplot has the lowest magnification and the lowest subplot has the highest magnification. Each subplot has the dimensionless visibility number plotted on the vertical axis and the spatial frequency plotted on the horizontal axis. We chose this layout since we expect the visibility to decrease when the lines get closer together and the spatial frequency thusly increases. Note that only the verticle visibility axis of the highest subplot starts with a visibility of zero.\\
-What we see is not surprising when we also take into account the photos in the appendix. As can be seen on these photos the highest magnification lense has the smallest numerical aperature, therefore all three traced groups are clearly resolvable. Thus the visibility won't drop as much as the lowest magnification lense when the spatial frequency increases.\\
-Something noticable however is that the highest magnification plot starts of with the lowest visibility value. This has to do with the fact that this smaller aperature aslo catches less light, the brightest spot in its photo is evidently less bright than that of the other two aperatures. This can be seen when taking a look at either the linetraces or the photos in the appendix.
+\subsection{Size measurements}
+
+The values that have been found for $d_{hair}$ and $d_{gf}$ are respectively $d_{hair} = 6.57 \pm 0.08 \cdot 10^{-5} m $ and $d_{gf} =  1.26 \pm 0.01 \cdot 10^{-4} m $. The images used for the measurements are presented in \ref{appendix_size}.
+
+The errors of the values for $d_{hair}$ and $d_{gf}$ are in the order of 1 \%. Furthermore, the values for $d_{hair}$ and $d_{gf}$ are of expected magnitude.
+
+\bigskip
+
+The values for $a$, $b$, $A$, the corresponding errors and the corresponding images that have been used can be found in \ref{appendix_size}. A histogram of the values for $A$ is presented in figure \ref{fig_histogram_zetmeel}.
+
+\begin{figure}[h!]
+	\centering
+    \includegraphics[width=10cm,keepaspectratio]{afbeeldingen/histogram_zetmeel.png}
+    \caption{Histogram of the values of $A$ for 30 starch particles.}
+    \label{fig_histogram_zetmeel}
+\end{figure}
+
+The values for $A$ are in the right order of magnitude (\cite{starch}) and have an error of under 5 \%.
+The histogram shows that there is a peak for particles with a value for $A$ around $1.5 \cdot 10^{-10} \: (m^2)$. This cannot be generalised for all starch particles since only ellipse-shaped particles were taken into account. Reviewing the images that were used for the analysis (see \ref{appendix_size}) reveals that there are relatively many large starch particles that are not ellipse shaped and therefore not taken into account. 
+
+Furthermore, it was only possible to get unambiguous ellipse fits for a relatively small number of particles. Most of the particles were not clearly visible or not of the right shape. Therefore, this method did not prove to be sufficient for this type of particle measurements. Other types of microscopes in combination with automated blob finding algorithms could possibly be of better use.
+
+\subsection{Birefringence}
+
+The colour planes that were taken into account for this experiment can be seen in figure \ref{fig_bf_planes} in which each Roman numeral corresponds to a colour plane.
+
+The values that have been found for $f$, $\Delta l_{path}$, $D$ and the corresponding errors are presented in appendix \ref{appendix_bf}.
+
+In figure \ref{fig_bf_plot}, $\Delta l_{paht}$ is plotted as a function of $D$.
+
+The data point corresponding to plane $IV$, the one with the cross, was not taken into account to find $\Delta n$. The reason for this, given the distance of this data point compared to the best fit, is that it seems that an error was made during the experiment.
+It follows from the orthogonal distance regression that $\Delta n = 5.3 \pm 0.2 \cdot 10^{-2}$. According to the Michel-L\'evy chart from \cite{bf_chart}, the sample could either be astrophylite, silk or piemontite. 
+
+The method that was used seemed to give a relatively precise outcome - only giving three possible sample materials. However, given that it is not clear why the value for colour plane $IV$ is an outsider, one could argue the validity of the outcome.
+
+To find out if this experimental set-up is sufficient, the found value for $\Delta n$ should be compared to the theoretical value for the sample. This theoretical value, is however not available. 
+
+
+\begin{figure}[h!]
+
+	\centering
+	\begin{minipage}{.35\textwidth}
+  		\centering
+  		\includegraphics[width=.95\linewidth]{afbeeldingen/bf_colourplanes.png}
+  		\caption{Image of a birefringent crystal in a polarizing microscope. The Roman numerals correspond to the different colour planes that were taken into account for this experiment.}
+		\label{fig_bf_planes}
+	\end{minipage}%
+	\hfill
+	\begin{minipage}{.55\textwidth}
+  		\centering
+  		\includegraphics[width=.95\linewidth]{afbeeldingen/bf_plot.png}
+		\caption{$\Delta l_{path}$ plotted as a function of $D$. The data points have errorbars in $\Delta l_{path}$ and $D$. The straight line is a best fit to the data according to an orthogonal distance regression using equation \ref{eq_bf}. The data point with the cross was not taken into account to find $\Delta n$.}
+		\label{fig_bf_plot}
+	\end{minipage}
+\end{figure}
+
+
+\newpage
+
+
 
 
 \begin{comment}
