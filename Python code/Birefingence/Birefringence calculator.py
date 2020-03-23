@@ -45,13 +45,13 @@ D_4 = np.average(d_0_2) + np.average(d_2_3) + np.average(d_3_4)
 D_4_b = np.average(d_0_2) + np.average(d_2_3) - np.average(d_3_4)
 D_5 = np.average(d_0_2) + np.average(d_2_3) + np.average(d_3_5)
 
-D = np.array([D_1, D_2, D_3, D_4, D_5])
+D = np.array([D_1, D_2, D_3, D_5])
 D_2 = np.array([D_1, D_2, D_3, D_4_b, D_5])
 print(D)
 
-
+print(D_4)
     # The path difference for the colours in order from thin to thicker layer
-delay_1 = np.array([270, 510, 600, 1190, 1210])*1e-9
+delay_1 = np.array([270, 510, 600, 1210])*1e-9
 delay_2 = np.array([270, 960, 1150, 640, 1700])*1e-9
 
     # Caculate the birefringence with average
@@ -64,7 +64,7 @@ delay_2 = np.array([270, 960, 1150, 640, 1700])*1e-9
     # Error calculations
     
 u_f = 2e-6
-u_delay = np.array([20, 10, 10, 20, 20])*1e-9
+u_delay = np.array([20, 10, 10, 20])*1e-9
 
 u_d = np.sqrt(2*(u_f**2))
 u_d_0_2_avg = 1/len(f_0_a) * np.sqrt(len(f_0_a)* u_d**2)
@@ -78,7 +78,7 @@ u_D_2 = u_d_0_2_avg
 u_D_3 = np.sqrt(u_d_0_2_avg**2 + u_d_2_3_avg**2)
 u_D_4 = np.sqrt(u_d_0_2_avg**2 + u_d_2_3_avg**2 + u_d_3_4_avg**2)
 u_D_5 = np.sqrt(u_d_0_2_avg**2 + u_d_2_3_avg**2 + u_d_3_5_avg**2)
-u_D = np.array([u_D_1, u_D_2, u_D_3, u_D_4, u_D_5])
+u_D = np.array([u_D_1, u_D_2, u_D_3, u_D_5])
 
 
     # Best fit of birefringe
@@ -109,7 +109,7 @@ plt.plot(x,y_1, label="Birefringe 1")
 
     # Data
 plt.errorbar(D, delay_1, xerr=u_D, yerr=u_delay, mec='k', linestyle='none',elinewidth=1,capsize=2)
-#plt.errorbar(D_2, delay_2, xerr=u_D, yerr=u_delay, mec='k', linestyle='none',elinewidth=1,capsize=2)
+plt.errorbar(D_4, (1190e-9), xerr=u_D_4, yerr=(20e-9), mec='k', linestyle='none',elinewidth=1,capsize=2, marker='x')
 plt.ylabel('$\Delta l_{path} \; (m)$')
 plt.xlabel('$D \; (m)$')
 plt.ticklabel_format(style='sci', axis='x',scilimits=(1,4))
