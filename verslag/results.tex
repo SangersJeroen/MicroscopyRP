@@ -121,6 +121,98 @@ To find out if this experimental set-up is sufficient, the found value for $\Del
 
 \newpage
 
+\subsection{Image improvements methods}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+    \includegraphics[width=0.35\textwidth, frame]{afbeeldingen/fungus.png}
+  	\caption{Image of fungus sample.}
+  	\label{fig_fungus}
+\end{wrapfigure}
+
+The image of the fungus that is used for all image improvement methods is presented in figure \ref{fig_fungus}.\\
+\\
+
+%Sigmoid
+
+%FOURIER
+
+The original image and the image that were acquired using the $BILAT$,$CONT$ and $MORPH$ rank filters in different combinations are presented in figure \ref{fig_rank}.
+
+\begin{figure}[h!]
+	
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img.png}
+        \caption{Original image of fungus sample zoomed-in and in gray-scale.}   
+        \label{fig_rank_plain}
+    \end{subfigure}
+    \hspace*{\fill}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_bilat.png}
+        \caption{Image using $BILAT$ , $r_{local}=20$ pixels.}   
+        \label{fig_rank_bilat}
+    \end{subfigure}
+    
+    \medskip
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_cont.png}
+        \caption{Image using $CONT$ , $r_{local}=5$ pixels.}   
+        \label{fig_rank_cont}
+    \end{subfigure}
+    \hspace*{\fill}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph.png}
+        \caption{Image using $MORPH$, $r_{local}=5$ pixels.}   
+        \label{fig_rank_morph}
+    \end{subfigure}
+    
+     \medskip
+     \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph_bilat.png}
+        \caption{Image using respectively $BILAT$ and $MORPH$.}   
+        \label{fig_rank_morph_bilat}
+    
+    \end{subfigure}
+    \hspace*{\fill}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph_cont.png}
+        \caption{Image using respectively $CONT$ and  $MORPH$.}   
+        \label{fig_rank_morph_cont}
+    \end{subfigure}
+    
+	\medskip
+    
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_cont_bilat.png}
+        \caption{Image using respectively $BILAT$ and $CONT$.}   
+        \label{fig_rank_cont_bilat}
+    \end{subfigure}
+    \hspace*{\fill}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph_cont_bilat.png}
+        \caption{Image using respectively $BILAT$, $CONT$ and $MORPH$.}   
+        \label{fig_rank_morph_cont_bilat}
+    \end{subfigure}
+    
+    \caption{Set of images using the $BILAT$,$CONT$ and $MORPH$ rank filters in different combinations} 
+	\label{fig_rank}
+\end{figure}
+
+As expected, the $BILAT$ filter filters away some of the noise. This can be seen by the reduction of small dots in figure \ref{fig_rank_bilat}. However, it also removes some of the details. \\
+The $CONT$ filter improves contrast efficiently, making details more visible A downsides of the filter is, however, that it emphasizes noise and the dark edges. This causes the edges to lose quality. This could perhaps be solved by first using a high-pass filter to remove the slow darkening transition towards the edges. \\
+The $MORPH$ filter makes the edges between different components in the image more clearly visible. Which could prove to be useful when doing size measurements within the image. What's more, it also seems to reveal more of the details. A negative artefact of the $MORPH$ filter is that it emphasizes noise. \\
+Combining the filters also proves to be useful, especially combinations with the $BILAT$ filter. In this case, the noise removal and detail loss is compensated by either of the other two filters. However, when many details need to be revolved, one might be better-off not using the $BILAT$ filter and accepting relatively much noise. 
+
+
+
+
 
 
 
