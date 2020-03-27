@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  24 MAR 2020 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.10)  27 MAR 2020 13:38
 entering extended mode
 **c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/main.tex
 (c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/main.tex
@@ -1094,7 +1094,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--126
 [1
 
 ] (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\introduction.tex Excluding 'comment' comment.) [2] (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\Theory.tex
-<afbeeldingen/compound_microscope.png, id=155, 359.84438pt x 624.08156pt>
+<afbeeldingen/compound_microscope.png, id=160, 359.84438pt x 624.08156pt>
 File: afbeeldingen/compound_microscope.png Graphic file (type png)
 <use afbeeldingen/compound_microscope.png>
 Package pdftex.def Info: afbeeldingen/compound_microscope.png  used on input line 6.
@@ -1123,7 +1123,7 @@ Overfull \hbox (1.88115pt too wide) in paragraph at lines 29--31
  []
 
 [3 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/compound_microscope.png>]
-<afbeeldingen/bf_principle.png, id=189, 603.0028pt x 368.1253pt>
+<afbeeldingen/bf_principle.png, id=194, 603.0028pt x 368.1253pt>
 File: afbeeldingen/bf_principle.png Graphic file (type png)
 <use afbeeldingen/bf_principle.png>
 Package pdftex.def Info: afbeeldingen/bf_principle.png  used on input line 57.
@@ -1137,124 +1137,121 @@ LaTeX Warning: Reference `eq_u_d' on page 4 undefined on input line 72.
 LaTeX Warning: Reference `eq_rel_mag' on page 6 undefined on input line 7.
 
 
-LaTeX Warning: Reference `eq_visibility' on page 6 undefined on input line 10.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 
-Overfull \hbox (16.46408pt too wide) in paragraph at lines 14--15
+Overfull \hbox (16.46408pt too wide) in paragraph at lines 18--19
 \OT1/cmr/m/n/10 All microscopic size measurements are made by measuring pixels and comparing this to the corresponding
  []
 
 
-LaTeX Warning: Reference `eq_u_ellipse' on page 6 undefined on input line 24.
+LaTeX Warning: Reference `eq_u_ellipse' on page 6 undefined on input line 30.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
-<afbeeldingen/histograms/highcontrast.png, id=230, 375.62332pt x 167.30505pt>
+<afbeeldingen/histograms/highcontrast.png, id=237, 375.62332pt x 167.30505pt>
 File: afbeeldingen/histograms/highcontrast.png Graphic file (type png)
 <use afbeeldingen/histograms/highcontrast.png>
-Package pdftex.def Info: afbeeldingen/histograms/highcontrast.png  used on input line 43.
+Package pdftex.def Info: afbeeldingen/histograms/highcontrast.png  used on input line 50.
 (pdftex.def)             Requested size: 195.12767pt x 86.91232pt.
-<afbeeldingen/histograms/lowcontrast.png, id=231, 375.62332pt x 167.30505pt>
+<afbeeldingen/histograms/lowcontrast.png, id=238, 375.62332pt x 167.30505pt>
 File: afbeeldingen/histograms/lowcontrast.png Graphic file (type png)
 <use afbeeldingen/histograms/lowcontrast.png>
-Package pdftex.def Info: afbeeldingen/histograms/lowcontrast.png  used on input line 49.
+Package pdftex.def Info: afbeeldingen/histograms/lowcontrast.png  used on input line 56.
 (pdftex.def)             Requested size: 195.12767pt x 86.91232pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 [7 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/histograms/highcontrast.png> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/histograms/lowcontrast.png>]
-<afbeeldingen/sigmoid_explained.png, id=249, 334.1283pt x 389.2944pt>
+<afbeeldingen/sigmoid_explained.png, id=256, 334.1283pt x 389.2944pt>
 File: afbeeldingen/sigmoid_explained.png Graphic file (type png)
 <use afbeeldingen/sigmoid_explained.png>
-Package pdftex.def Info: afbeeldingen/sigmoid_explained.png  used on input line 67.
+Package pdftex.def Info: afbeeldingen/sigmoid_explained.png  used on input line 74.
 (pdftex.def)             Requested size: 238.49232pt x 277.86816pt.
 
-Underfull \hbox (badness 2913) in paragraph at lines 72--74
+Underfull \hbox (badness 2913) in paragraph at lines 79--81
 [][]\OT1/cmr/m/n/10 In figure []5[] on the left the low
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 72--74
+Underfull \hbox (badness 3568) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 are plotted in the top row, in the
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 72--74
+Underfull \hbox (badness 1845) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 above denoted by the grey solid and
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 72--74
+Underfull \hbox (badness 1178) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 dashed line respectively. The bottom
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 72--74
+Underfull \hbox (badness 2302) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 row consists of the histogram of the
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 72--74
+Underfull \hbox (badness 3861) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 example image and the image acted
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 72--74
+Underfull \hbox (badness 1337) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 on by the sigmoid function. In this
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 72--74
+Underfull \hbox (badness 3590) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 example we used a sigmoid function
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 72--74
+Underfull \hbox (badness 1077) in paragraph at lines 79--81
 \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 255$ since we want to
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 72--74
+Underfull \hbox (badness 4001) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 map our input values on a domain
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 72--74
+Underfull \hbox (badness 1215) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 255]$ not $[0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1]$, $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 is the median of
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 72--74
+Underfull \hbox (badness 1072) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 the top histogram and $\OML/cmm/m/it/10 $ \OT1/cmr/m/n/10 its standard
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 72--74
+Underfull \hbox (badness 6157) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 As can be seen in the figure the
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 72--74
+Underfull \hbox (badness 1824) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 peaks of the most common values of
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 72--74
+Underfull \hbox (badness 1052) in paragraph at lines 79--81
 \OT1/cmr/m/n/10 the intensity have been spread further
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
@@ -1271,12 +1268,12 @@ LaTeX Warning: Reference `eq_pixelsize' on page 9 undefined on input line 14.
 
 LaTeX Warning: Reference `eq_u_pixelsize' on page 9 undefined on input line 14.
 
-<afbeeldingen/process_visibility/m3_bw.jpg, id=262, 802.49812pt x 590.205pt>
+<afbeeldingen/process_visibility/m3_bw.jpg, id=269, 802.49812pt x 590.205pt>
 File: afbeeldingen/process_visibility/m3_bw.jpg Graphic file (type jpg)
 <use afbeeldingen/process_visibility/m3_bw.jpg>
 Package pdftex.def Info: afbeeldingen/process_visibility/m3_bw.jpg  used on input line 37.
 (pdftex.def)             Requested size: 151.76633pt x 111.61777pt.
-<afbeeldingen/process_visibility/m3_rpg_7.png, id=263, 385.1991pt x 283.2984pt>
+<afbeeldingen/process_visibility/m3_rpg_7.png, id=270, 385.1991pt x 283.2984pt>
 File: afbeeldingen/process_visibility/m3_rpg_7.png Graphic file (type png)
 <use afbeeldingen/process_visibility/m3_rpg_7.png>
 Package pdftex.def Info: afbeeldingen/process_visibility/m3_rpg_7.png  used on input line 43.
@@ -1286,7 +1283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<afbeeldingen/visibilities.png, id=266, 338.2236pt x 396.5214pt>
+<afbeeldingen/visibilities.png, id=273, 338.2236pt x 396.5214pt>
 File: afbeeldingen/visibilities.png Graphic file (type png)
 <use afbeeldingen/visibilities.png>
 Package pdftex.def Info: afbeeldingen/visibilities.png  used on input line 60.
@@ -1297,7 +1294,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [9
 
  <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/process_visibility/m3_bw.jpg> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/process_visibility/m3_rpg_7.png>]
-<afbeeldingen/histogram_zetmeel.png, id=279, 462.528pt x 344.0052pt>
+<afbeeldingen/histogram_zetmeel.png, id=286, 462.528pt x 344.0052pt>
 File: afbeeldingen/histogram_zetmeel.png Graphic file (type png)
 <use afbeeldingen/histogram_zetmeel.png>
 Package pdftex.def Info: afbeeldingen/histogram_zetmeel.png  used on input line 77.
@@ -1307,7 +1304,7 @@ Package pdftex.def Info: afbeeldingen/histogram_zetmeel.png  used on input line 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/visibilities.png>]
-<afbeeldingen/bf_colourplanes.png, id=294, 735.49782pt x 593.21625pt>
+<afbeeldingen/bf_colourplanes.png, id=301, 735.49782pt x 593.21625pt>
 File: afbeeldingen/bf_colourplanes.png Graphic file (type png)
 <use afbeeldingen/bf_colourplanes.png>
 Package pdftex.def Info: afbeeldingen/bf_colourplanes.png  used on input line 108.
@@ -1322,50 +1319,82 @@ Underfull \hbox (badness 2717) in paragraph at lines 109--109
 \OT1/cmr/m/n/9 were taken into account for this
  []
 
-<afbeeldingen/bf_plot.png, id=295, 462.528pt x 344.0052pt>
+<afbeeldingen/bf_plot.png, id=302, 462.528pt x 344.0052pt>
 File: afbeeldingen/bf_plot.png Graphic file (type png)
 <use afbeeldingen/bf_plot.png>
 Package pdftex.def Info: afbeeldingen/bf_plot.png  used on input line 115.
 (pdftex.def)             Requested size: 226.56697pt x 168.51152pt.
-[11 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/histogram_zetmeel.png> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/bf_colourplanes.png> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/bf_plot.png>] Excluding 'comment' comment.) (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\conclusions.tex
-Overfull \hbox (15.20486pt too wide) in paragraph at lines 2--9
-\OT1/cmr/m/n/10 the productivity of the workflow. Pictures of the microscopic ruler were easily translated to magnification
+<afbeeldingen/Histogram_results/donkerhistogram.png, id=305, 383.93437pt x 167.30505pt>
+File: afbeeldingen/Histogram_results/donkerhistogram.png Graphic file (type png)
+<use afbeeldingen/Histogram_results/donkerhistogram.png>
+Package pdftex.def Info: afbeeldingen/Histogram_results/donkerhistogram.png  used on input line 126.
+(pdftex.def)             Requested size: 238.49232pt x 103.92717pt.
+<afbeeldingen/Histogram_results/lichthistogram.png, id=306, 383.93437pt x 167.30505pt>
+File: afbeeldingen/Histogram_results/lichthistogram.png Graphic file (type png)
+<use afbeeldingen/Histogram_results/lichthistogram.png>
+Package pdftex.def Info: afbeeldingen/Histogram_results/lichthistogram.png  used on input line 127.
+(pdftex.def)             Requested size: 238.49232pt x 103.92717pt.
+<afbeeldingen/Histogram_results/improved_contrast_histogram.png, id=307, 383.93437pt x 167.30505pt>
+File: afbeeldingen/Histogram_results/improved_contrast_histogram.png Graphic file (type png)
+<use afbeeldingen/Histogram_results/improved_contrast_histogram.png>
+Package pdftex.def Info: afbeeldingen/Histogram_results/improved_contrast_histogram.png  used on input line 128.
+(pdftex.def)             Requested size: 238.49232pt x 103.92717pt.
+[11 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/histogram_zetmeel.png> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/bf_colourplanes.png> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/bf_plot.png>]
+Underfull \hbox (badness 1052) in paragraph at lines 133--136
+\OT1/cmr/m/n/10 top image, the information however is
  []
 
 
-Overfull \hbox (4.43526pt too wide) in paragraph at lines 2--9
-\OT1/cmr/m/n/10 NI Vision also proved to be helpfull with determening the resolving power of the multplie magnification
+Underfull \hbox (badness 1400) in paragraph at lines 133--136
+\OT1/cmr/m/n/10 Since information cannot be added to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+Underfull \hbox (badness 1603) in paragraph at lines 133--136
+\OT1/cmr/m/n/10 at the edges of the frame where the
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 133--136
+\OT1/cmr/m/n/10 be safe to assume that the algortihm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+
+ []
+
+[12 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/Histogram_results/donkerhistogram.png> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/Histogram_results/lichthistogram.png> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/Histogram_results/improved_contrast_histogram.png>]) (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\conclusions.tex)
+Overfull \hbox (2.7686pt too wide) in paragraph at lines 2--136
+\OT1/cmr/m/n/10 NI Vision also proved to be helpfull with determining the resolving power of the multiple magnification
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+Underfull \hbox (badness 10000) in paragraph at lines 2--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+Underfull \hbox (badness 10000) in paragraph at lines 2--136
 
  []
 
-)
-Overfull \hbox (25.54752pt too wide) in paragraph at lines 17--136
-\OT1/cmr/m/n/10 work, you discuss more speculative conclusions, ad you may do suggestions for further (improved/extended)
- []
+[13
 
-[12] (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\literatuurlijst.tex) (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.bbl
+] (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\literatuurlijst.tex) (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.bbl
 Underfull \hbox (badness 3780) in paragraph at lines 16--19
 []\OT1/cmr/m/n/10 ``Image processing with ni vision development module.'' []$\OT1/cmtt/m/n/10 https : / / www . ni . com / nl-[]nl /
  []
 
-) [13] (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_manual.tex
+) [14] (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_manual.tex
 
 pdfTeX warning: pdflatex (file c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/manual.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=319, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=340, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf>
 Package pdftex.def Info: afbeeldingen/manual.pdf  used on input line 3.
@@ -1383,7 +1412,7 @@ pdfTeX warning: pdflatex (file c:/Users/Gebruiker/Documents/MircoscopyRP/verslag
 
 
 pdfTeX warning: pdflatex (file c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/manual.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=322, page=8, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=343, page=8, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf, page 8>
 Package pdftex.def Info: afbeeldingen/manual.pdf , page8 used on input line 3.
@@ -1434,7 +1463,7 @@ pdfTeX warning: pdflatex (file c:/Users/Gebruiker/Documents/MircoscopyRP/verslag
 
 
 pdfTeX warning: pdflatex (file c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/manual.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=349, page=10, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=370, page=10, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf, page 10>
 Package pdftex.def Info: afbeeldingen/manual.pdf , page10 used on input line 6.
@@ -1463,7 +1492,7 @@ Package pdftex.def Info: afbeeldingen/manual.pdf , page10 used on input line 6.
  [2 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/manual.pdf>]
 
 pdfTeX warning: pdflatex (file c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/manual.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<afbeeldingen/manual.pdf, id=355, page=11, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual.pdf, id=377, page=11, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual.pdf Graphic file (type pdf)
 <use afbeeldingen/manual.pdf, page 11>
 Package pdftex.def Info: afbeeldingen/manual.pdf , page11 used on input line 6.
@@ -1486,28 +1515,28 @@ LaTeX Warning: Reference `fig_pixelszie_10x' on page iv undefined on input line 
 
 LaTeX Warning: Reference `fig_pixelszie_40x' on page iv undefined on input line 4.
 
-<afbeeldingen/pixelsize/pixelsize_4x.jpg, id=361, 2071.74pt x 1549.79pt>
+<afbeeldingen/pixelsize/pixelsize_4x.jpg, id=382, 2071.74pt x 1549.79pt>
 File: afbeeldingen/pixelsize/pixelsize_4x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_4x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_4x.jpg  used on input line 8.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
-<afbeeldingen/pixelsize/pixelsize_10x.jpg, id=362, 2071.74pt x 1549.79pt>
+<afbeeldingen/pixelsize/pixelsize_10x.jpg, id=383, 2071.74pt x 1549.79pt>
 File: afbeeldingen/pixelsize/pixelsize_10x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_10x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_10x.jpg  used on input line 16.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
-<afbeeldingen/pixelsize/pixelsize_40x.jpg, id=363, 2071.74pt x 1549.79pt>
+<afbeeldingen/pixelsize/pixelsize_40x.jpg, id=384, 2071.74pt x 1549.79pt>
 File: afbeeldingen/pixelsize/pixelsize_40x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_40x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_40x.jpg  used on input line 24.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
 ) [4 <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/pixelsize/pixelsize_4x.jpg> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/pixelsize/pixelsize_10x.jpg> <c:/Users/Gebruiker/Documents/MircoscopyRP/verslag/afbeeldingen/pixelsize/pixelsize_40x.jpg>] (c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\appendix_size.tex
-<afbeeldingen/size/hair.jpg, id=371, 2071.74pt x 1549.79pt>
+<afbeeldingen/size/hair.jpg, id=392, 2071.74pt x 1549.79pt>
 File: afbeeldingen/size/hair.jpg Graphic file (type jpg)
 <use afbeeldingen/size/hair.jpg>
 Package pdftex.def Info: afbeeldingen/size/hair.jpg  used on input line 8.
 (pdftex.def)             Requested size: 199.16928pt x 148.98152pt.
-<afbeeldingen/size/gf.jpg, id=372, 2071.74pt x 1549.79pt>
+<afbeeldingen/size/gf.jpg, id=393, 2071.74pt x 1549.79pt>
 File: afbeeldingen/size/gf.jpg Graphic file (type jpg)
 <use afbeeldingen/size/gf.jpg>
 Package pdftex.def Info: afbeeldingen/size/gf.jpg  used on input line 16.
@@ -1526,7 +1555,7 @@ LaTeX Warning: Reference `eq_ellipse area' on page vi undefined on input line 29
 LaTeX Warning: Reference `eq_u_ellipse_area' on page vi undefined on input line 29.
 
 [6]
-<afbeeldingen/size/zetmeel/zetmeel_1.png, id=392, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_1.png, id=413, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_1.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_1.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_1.png  used on input line 75.
@@ -1536,7 +1565,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_2.png, id=393, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_2.png, id=414, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_2.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_2.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_2.png  used on input line 82.
@@ -1546,7 +1575,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_3.png, id=394, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_3.png, id=415, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_3.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_3.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_3.png  used on input line 90.
@@ -1556,7 +1585,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_4.png, id=395, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_4.png, id=416, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_4.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_4.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_4.png  used on input line 97.
@@ -1566,7 +1595,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_5.png, id=396, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_5.png, id=417, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_5.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_5.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_5.png  used on input line 105.
@@ -1576,7 +1605,7 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 105--106
  [][] 
  []
 
-<afbeeldingen/size/zetmeel/zetmeel_6.png, id=397, 497.2176pt x 371.9496pt>
+<afbeeldingen/size/zetmeel/zetmeel_6.png, id=418, 497.2176pt x 371.9496pt>
 File: afbeeldingen/size/zetmeel/zetmeel_6.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_6.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_6.png  used on input line 112.
@@ -1599,7 +1628,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 537DF2F5BAD31CE319A2BCA63F254F07;1566.
+(rerunfilecheck)             Checksum: 5F8CE0300DAFAF092D9E45137ABF64B8;1640.
 
 
 LaTeX Warning: There were undefined references.
@@ -1607,17 +1636,17 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 26969 strings out of 492449
- 474380 string characters out of 3129676
+ 27002 strings out of 492449
+ 475733 string characters out of 3129676
  733029 words of memory out of 3000000
- 30838 multiletter control sequences out of 15000+200000
+ 30862 multiletter control sequences out of 15000+200000
  540311 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,19n,100p,1115b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,19n,100p,1068b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.pdf (24 pages, 26865551 bytes).
+Output written on c:\Users\Gebruiker\Documents\MircoscopyRP\verslag\main.pdf (25 pages, 28205136 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 364 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
 

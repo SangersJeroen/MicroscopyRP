@@ -25,7 +25,7 @@ $40\times$ & 0.2 & 1.250$\cdot 10^3$ & 1.600$\cdot 10^{-7}$ & 5$\cdot 10^{-10}$ 
 \label{table_pixelsize}
 \end{table}
 
-As expected, the accuracy for the higher magnification objectives is better. Meaning that images from an objective with a higher magnification, corresponds with a smaller value for $l_{pixel}$. 
+As expected, the accuracy for the higher magnification objectives is better. Meaning that images from an objective with a higher magnification, corresponds with a smaller value for $l_{pixel}$.
 
 \bigskip
 
@@ -80,7 +80,7 @@ The values for $a$, $b$, $A$, the corresponding errors and the corresponding ima
 \end{figure}
 
 The values for $A$ are in the right order of magnitude (\cite{starch}) and have an error of under 5 \%.
-The histogram shows that there is a peak for particles with a value for $A$ around $1.5 \cdot 10^{-10} \: (m^2)$. This cannot be generalised for all starch particles since only ellipse-shaped particles were taken into account. Reviewing the images that were used for the analysis (see \ref{appendix_size}) reveals that there are relatively many large starch particles that are not ellipse shaped and therefore not taken into account. 
+The histogram shows that there is a peak for particles with a value for $A$ around $1.5 \cdot 10^{-10} \: (m^2)$. This cannot be generalised for all starch particles since only ellipse-shaped particles were taken into account. Reviewing the images that were used for the analysis (see \ref{appendix_size}) reveals that there are relatively many large starch particles that are not ellipse shaped and therefore not taken into account.
 
 Furthermore, it was only possible to get unambiguous ellipse fits for a relatively small number of particles. Most of the particles were not clearly visible or not of the right shape. Therefore, this method did not prove to be sufficient for this type of particle measurements. Other types of microscopes in combination with automated blob finding algorithms could possibly be of better use.
 
@@ -93,11 +93,11 @@ The values that have been found for $f$, $\Delta l_{path}$, $D$ and the correspo
 In figure \ref{fig_bf_plot}, $\Delta l_{paht}$ is plotted as a function of $D$.
 
 The data point corresponding to plane $IV$, the one with the cross, was not taken into account to find $\Delta n$. The reason for this, given the distance of this data point compared to the best fit, is that it seems that an error was made during the experiment.
-It follows from the orthogonal distance regression that $\Delta n = 5.3 \pm 0.2 \cdot 10^{-2}$. According to the Michel-L\'evy chart from \cite{bf_chart}, the sample could either be astrophylite, silk or piemontite. 
+It follows from the orthogonal distance regression that $\Delta n = 5.3 \pm 0.2 \cdot 10^{-2}$. According to the Michel-L\'evy chart from \cite{bf_chart}, the sample could either be astrophylite, silk or piemontite.
 
 The method that was used seemed to give a relatively precise outcome - only giving three possible sample materials. However, given that it is not clear why the value for colour plane $IV$ is an outsider, one could argue the validity of the outcome.
 
-To find out if this experimental set-up is sufficient, the found value for $\Delta n$ should be compared to the theoretical value for the sample. This theoretical value, is however not available. 
+To find out if this experimental set-up is sufficient, the found value for $\Delta n$ should be compared to the theoretical value for the sample. This theoretical value, is however not available.
 
 
 \begin{figure}[h!]
@@ -119,12 +119,20 @@ To find out if this experimental set-up is sufficient, the found value for $\Del
 \end{figure}
 
 
+\subsection{Other image improvements}
+\subsubsection{Contrast improvement}
+\begin{wrapfigure}{l}{0.55\textwidth}
+  \centering
+  \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/donkerhistogram.png}
+  \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/lichthistogram.png}
+  \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/improved_contrast_histogram.png}
+  \caption{From top to bottom: an underexposed image, a auto exposed image and the underexposed image altered by a sigmoid.}
+  \label{fig:contrast_improvement}
+\end{wrapfigure}
+
+The two topmost pictures in figure \ref{fig:contrast_improvement} were taken by the same camera at different exposure settings. As can be seen the top image is clearly underexposed as the peaks of its histogram lie solely in the lowest quarter of the intensity spectrum. The second topmost image was taken at an auto-exposure setting meaning that the camera itself decides the best exposure setting. The bottommost picture contains the same information as the underexposed top image, the information however is spread over the total intensity spectrum by a sigmoid function as explained in \ref{section:imageimprovement}. The peaks of the improved image's histogram still represent the histogram of the top image.\\
+Since information cannot be added to the image, the bottommost image is only better when looked at it by a person, the histogram is discontinous meaning that there is not as much transisition between two values. This is especially noticeable at the edges of the frame where the original image is so dark that there is no information to spread. Since there are only one or two intensity values the resulting shift will still only conssit of two values, resulting in shifted black bars.\\
+Because of the previous reason it would be safe to assume that the algortihm used could greatly improve if some sort of interpolation function is also added. This way the program would be able to try and fill in missing information.\\
+
+\clearpage
 \newpage
-
-
-
-
-\begin{comment}
-In theResultaten en discussie (Results and discussion) chapter, you present your results, generally in the form of graphs, and you discuss them. A single small table (m aximum ~10 rows x ~5 columns) is acceptable, but large tables should be in an appendix. In deviation from what many students believe, it is not desirable to separate the presentation and the discussion of results from each other. In professional literature, this is most often done together.\\ •You should introduce each graph:\\ -Why has this graph been included in the report. (What do we want to learn from this graph?).\\-Why   have   you   plotted   this   Y-axis   variable   as   a   function   of   this   X-axis   variable   (which   theoretical/expected relationship is tested/demonstrated in this this graph? \\•Then you tell the reader what (according to you) he/she should see in the graph, limiting yourself toconclusions  that  are  relatively  indisputable.  The  more  speculative  conclusions  should  be  in the  next  chapter.
-\newpage
-\end{comment}

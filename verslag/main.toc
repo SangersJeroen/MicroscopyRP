@@ -18,9 +18,11 @@
 \contentsline {subsection}{\numberline {5.2}Resolving power}{9}{subsection.5.2}% 
 \contentsline {subsection}{\numberline {5.3}Size measurements}{10}{subsection.5.3}% 
 \contentsline {subsection}{\numberline {5.4}Birefringence}{10}{subsection.5.4}% 
-\contentsline {section}{\numberline {6}Conclusions}{12}{section.6}% 
-\contentsline {section}{List of references}{13}{section.6}% 
-\contentsline {section}{Appendices}{i}{section*.14}% 
+\contentsline {subsection}{\numberline {5.5}Other image improvements}{12}{subsection.5.5}% 
+\contentsline {subsubsection}{\numberline {5.5.1}Contrast improvement}{12}{subsubsection.5.5.1}% 
+\contentsline {section}{\numberline {6}Conclusions}{13}{section.6}% 
+\contentsline {section}{List of references}{14}{section.6}% 
+\contentsline {section}{Appendices}{i}{section*.15}% 
 \contentsline {subsection}{\numberline {Appendix A}Leica DM EP manual}{i}{subsection.Alph0.1}% 
 \contentsline {subsection}{\numberline {Appendix B}Calibration}{iv}{subsection.Alph0.2}% 
 \contentsline {subsection}{\numberline {Appendix C}Size Measurements}{v}{subsection.Alph0.3}% 

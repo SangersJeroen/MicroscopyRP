@@ -7,16 +7,22 @@ This experiment consists of four parts. First the calibration of the microscope.
 A microscopic ruler is used to measure the length that corresponds to one pixel in an image, $l_{pixel}$. This is achieved by focussing on a 1 mm, 100 division ruler and measuring the distance between two focussed, distant division lines and comparing the number of pixels to the physical length. The NI software is used to find the exact location of these two lines and subsequently find the perpendicular projection. This procedure is repeated for all three objectives. The relative magnification between two objectives, $M_{A,B}$ can subsequently be found using equation \ref{eq_rel_mag}.
 
 \bigskip
-With the aid of a 1951 USAF resolution target, the resolving power of each objective can be found. First taking a focussed grayscale image  on the target and then taking a perpendicular intensity profile for each well defined three-bar structure (see Figure \ref{fig:resolution_target}).This intensity profile is exported by NI Vision to a CSV file directly so we dont suffer from any compression, a file which can be easily read by a python peakfinding script ( an example of which can be seen in the next section's figure \ref{fig:linetrace}). The high and low intensity values will be used to calculate the visibility using equation \ref{eq_visibility} and the corresponding spatial frequency. This is repeated for all three objectives.\\
+With the aid of a 1951 USAF resolution target, the resolving power of each objective can be found. First taking a focussed grayscale image  on the target and then taking a perpendicular intensity profile for each well defined three-bar structure (see Figure \ref{fig:resolution_target}).This intensity profile is exported by NI Vision to a CSV file directly so we dont suffer from any compression, a file which can be easily read by a python peakfinding script ( an example of which can be seen in the next section's figure \ref{fig:linetrace}). The high and low intensity values will be used to calculate the visibility using equation \ref{eq:visibility} and the corresponding spatial frequency. This is repeated for all three objectives.\\
 
+\begin{equation}
+  V = \frac{I_{max}-I_{min}}{I_{max}+I_{min}}
+  \label{eq:visibility}
+\end{equation}
 \subsection{Microscopic size measurements}
 
 All microscopic size measurements are made by measuring pixels and comparing this to the corresponding pixel length. This is done for images with the $40\times$ objective since this gives the smallest error.
 
+
+
 \subsubsection*{Human hair and optical glass fibre}
 
 
-Measuring the thickness of the human hair and optical glass fibre is done with the aid of the NI Vision software. First finding the two straight lines of the outer edges and subsequently measuring the perpendicular distance between the two, $n_{hair}$ and $n_{gf}$ in pixels. The physical size, $d_{hair}$ and $d_{gf}$, and error can be calculated using respectfully equation \ref{eq_distance} and \ref{eq_u_distance}. 
+Measuring the thickness of the human hair and optical glass fibre is done with the aid of the NI Vision software. First finding the two straight lines of the outer edges and subsequently measuring the perpendicular distance between the two, $n_{hair}$ and $n_{gf}$ in pixels. The physical size, $d_{hair}$ and $d_{gf}$, and error can be calculated using respectfully equation \ref{eq_distance} and \ref{eq_u_distance}.
 
 
 \subsubsection*{Starch particles}
@@ -33,6 +39,7 @@ In order to find the birefringence, $\Delta n$, of the unknown crystal, it is pl
 For this experiment it was chosen to find $D$ and $\Delta l_{path}$ for 5 colour planes. The focussing process was repeated 4 to 5 times for every border that was studied.
 
 \subsection{Image improvement methods}
+\label{section:imageimprovement}
 The features of an image are easier to distinguish when the image has plenty of contrast, an underexposed image might hold a lot of information that is not yet visible for us.\\
 A way of qunatitatively expressing the contrast of an image is through a histogram as outlined in the NI Vision article\cite{histogram_theory}. To create such an histogram a python script has been written. Two example files were worked on by the python file, the result of wich is plotted in figures \ref{fig:lcphoto} and \ref{fig:hcphoto}. Both photos have the same pattern on top but a different shade of grey as a background.\\
 
