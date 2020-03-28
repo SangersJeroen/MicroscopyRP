@@ -1,18 +1,13 @@
 \section{Results and discussion}
-
 \subsection{Calibration}
 
-The values that have been found for $l_{real}$, $n$, $l_{pixel}$ and the corresponding error are presented in table \ref{table_pixelsize} for each objective. It was estimated that $u(n) = 4$.
-
-The images corresponding to each measurement are presented in figures \ref{fig_pixelsize_4x}, \ref{fig_pixelsize_10x} and \ref{fig_pixelsize_40x} in appendix \ref{appendix_calibration}.
+The values that have been found for $l_{real}$, $n$, $l_{pixel}$ and the corresponding error are presented in table \ref{table_pixelsize} for each objective. It was estimated that $u(n) = 4$.\\
+The images corresponding to each measurement are presented in figures \ref{fig_pixelsize_4x}, \ref{fig_pixelsize_10x} and \ref{fig_pixelsize_40x} in appendix \ref{appendix_calibration}.\\
 
 \begin{table}[h!]
-
-
 \centering
 \captionsetup{font=small, justification = centering}
   \caption{Results of measurements of $n$ for the corresponding value of $l_{real}$ for each objective. The values for $l_{pixel}$ and $u(l_{pixel})$ follow from respectfully equation \ref{eq_pixelsize} and \ref{eq_u_pixelsize}.}
-
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 
@@ -24,32 +19,29 @@ $40\times$ & 0.2 & 1.250$\cdot 10^3$ & 1.600$\cdot 10^{-7}$ & 5$\cdot 10^{-10}$ 
 
 \label{table_pixelsize}
 \end{table}
-
-As expected, the accuracy for the higher magnification objectives is better. Meaning that images from an objective with a higher magnification, corresponds with a smaller value for $l_{pixel}$.
+As expected, the accuracy for the higher magnification objectives is better. Meaning that images from an objective with a higher magnification, corresponds with a smaller value for $l_{pixel}$.\\
 
 \bigskip
 
 \subsection{Resolving power}
+
+The photos below are the result of the process outlined in the section \ref{expmeth_calibration}. The high an low values of the line trace were manually read from the images and entered into a python script to calculating the visibility values for each magnification and spatial frequency. The result of which can be seen in figure \ref{fig:visibilities}.\\
+
 \begin{figure}[h!]
     \centering
-    \begin{minipage}{.5\textwidth}
+    \begin{minipage}{0.45\textwidth}
       \centering
       \includegraphics[width=0.7\textwidth,keepaspectratio]{afbeeldingen/process_visibility/m3_bw.jpg}
       \caption{Black and white photo.}
       \label{fig:resolution_target}
     \end{minipage}%
-    \begin{minipage}{.5\textwidth}
+    \begin{minipage}{.45\textwidth}
       \centering
       \includegraphics[width=0.7\textwidth,keepaspectratio]{afbeeldingen/process_visibility/m3_rpg_7.png}
       \caption{Linetrace of seventh group.}
       \label{fig:linetrace}
     \end{minipage}
 \end{figure}
-
-
-
-The above photos are the result of the process outlined in the section \ref{expmeth_calibration}. The high an low values of the line trace were manually read from the images and entered into a python script to calculating the visibility values for each magnification and spatial frequency. The result of which can be seen in figure \ref{fig:visibilities}.\\
-
 
 The data is plotted in such a way that the highest subplot has the lowest magnification and the lowest subplot has the highest magnification. Each subplot has the dimensionless visibility number plotted on the vertical axis and the spatial frequency plotted on the horizontal axis. We chose this layout since we expect the visibility to decrease when the lines get closer together and the spatial frequency consequently increases. Note that only the vertical visibility axis of the highest sub-plot starts with a visibility of zero.\\
 What we see is not surprising when we also take into account the photos in the appendix. As can be seen on these photos the $40\times$ objective has the smallest numerical aperture, therefore all three traced groups are clearly resolvable. Thus, the visibility won't drop as much for the $4\times$ objective when the spatial frequency increases.\\
@@ -64,25 +56,17 @@ Something noticeable however, is that the highest magnification plot starts of w
 
 \subsection{Size measurements}
 
-The values that have been found for $d_{hair}$ and $d_{gf}$ are respectively $d_{hair} = 6.57 \pm 0.08 \cdot 10^{-5} m $ and $d_{gf} =  1.26 \pm 0.01 \cdot 10^{-4} m $. The images used for the measurements are presented in \ref{appendix_size}.
+The values that have been found for $d_{hair}$ and $d_{gf}$ are respectively $d_{hair} = 6.57 \pm 0.08 \cdot 10^{-5} m $ and $d_{gf} =  1.26 \pm 0.01 \cdot 10^{-4} m $. The images used for the measurements are presented in \ref{appendix_size}.\\
+The errors of the values for $d_{hair}$ and $d_{gf}$ are in the order of 1 \%. Furthermore, the values for $d_{hair}$ and $d_{gf}$ are of expected magnitude.\\
 
-The errors of the values for $d_{hair}$ and $d_{gf}$ are in the order of 1 \%. Furthermore, the values for $d_{hair}$ and $d_{gf}$ are of expected magnitude.
-
-\bigskip
-
-The values for $a$, $b$, $A$, the corresponding errors and the corresponding images that have been used can be found in \ref{appendix_size}. A histogram of the values for $A$ is presented in figure \ref{fig_histogram_zetmeel}.
-
-\begin{figure}[h!]
-	\centering
-    \includegraphics[width=10cm,keepaspectratio]{afbeeldingen/histogram_zetmeel.png}
+\begin{wrapfigure}{r}{0.5\linewidth}
+    \includegraphics[width=1\linewidth,keepaspectratio]{afbeeldingen/histogram_zetmeel.png}
     \caption{Histogram of the values of $A$ for 30 starch particles.}
     \label{fig_histogram_zetmeel}
-\end{figure}
-
-The values for $A$ are in the right order of magnitude (\cite{starch}) and have an error of under 5 \%.
-The histogram shows that there is a peak for particles with a value for $A$ around $1.5 \cdot 10^{-10} \: (m^2)$. This cannot be generalised for all starch particles since only ellipse-shaped particles were taken into account. Reviewing the images that were used for the analysis (see \ref{appendix_size}) reveals that there are relatively many large starch particles that are not ellipse shaped and therefore not taken into account.
-
-Furthermore, it was only possible to get unambiguous ellipse fits for a relatively small number of particles. Most of the particles were not clearly visible or not of the right shape. Therefore, this method did not prove to be sufficient for this type of particle measurements. Other types of microscopes in combination with automated blob finding algorithms could possibly be of better use.
+\end{wrapfigure}
+The values for $a$, $b$, $A$, the corresponding errors and the corresponding images that have been used can be found in \ref{appendix_size}. A histogram of the values for $A$ is presented in figure \ref{fig_histogram_zetmeel}. The values for $A$ are in the right order of magnitude (\cite{starch}) and have an error of under 5 \%.\\
+The histogram shows that there is a peak for particles with a value for $A$ around $1.5 \cdot 10^{-10} \: (m^2)$. This cannot be generalised for all starch particles since only ellipse-shaped particles were taken into account. Reviewing the images that were used for the analysis (see \ref{appendix_size}) reveals that there are relatively many large starch particles that are not ellipse shaped and therefore not taken into account.\\
+Furthermore, it was only possible to get unambiguous ellipse fits for a relatively small number of particles. Most of the particles were not clearly visible or not of the right shape. Therefore, this method did not prove to be sufficient for this type of particle measurements. Other types of microscopes in combination with automated blob finding algorithms could possibly be of better use.\\
 
 \subsection{Birefringence}
 
@@ -118,108 +102,105 @@ To find out if this experimental set-up is sufficient, the found value for $\Del
 	\end{minipage}
 \end{figure}
 
+\newpage
 
-\subsection{Other image improvements}
+\subsection{Image improvements methods}
+
+
 \subsubsection{Contrast improvement}
-\begin{wrapfigure}{l}{0.55\textwidth}
+
+
+
+\begin{wrapfigure}{l}{0.6\textwidth}
   \centering
   \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/donkerhistogram.png}
   \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/lichthistogram.png}
   \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/improved_contrast_histogram.png}
-  \caption{From top to bottom: an underexposed image, a auto exposed image and the underexposed image altered by a sigmoid.}
+  \caption{From top to bottom: an underexposed image, a auto exposed image and the topmost image altered by a sigmoid.}
   \label{fig:contrast_improvement}
 \end{wrapfigure}
 
+The two topmost pictures in figure \ref{fig:contrast_improvement} were taken by the same camera at different exposure settings. As can be seen the top image is clearly underexposed as the peaks of its histogram lie solely in the lowest quarter of the intensity spectrum. The second topmost image was taken at an auto-exposure setting meaning that the camera itself decides the best exposure setting. The bottommost picture contains the same information as the underexposed top image, the information however is spread over the total intensity spectrum by a sigmoid function as explained in \ref{section:imageimprovement}. The peaks of the improved image's histogram still represent the histogram of the top image.\\
+Since information cannot be added to the image, the bottommost image is only better when looked at it by a person, the histogram is discontinuous meaning that there is not as much transition between two values. This is especially noticeable at the edges of the frame where the original image is so dark that there is no information to spread. Since there are only one or two intensity values the resulting shift will still only consist of two values, resulting in shifted black bars.\\
+Because of the previous reason it would be safe to assume that the algorithm used could greatly improve if some sort of interpolation function is also added. This way the program would be able to try and fill in missing information. An example of such an algorithm is a rank filter.\\
 
-\subsection{Image improvements methods}
-
-\begin{wrapfigure}{r}{0.4\textwidth}
-    \includegraphics[width=0.35\textwidth, frame]{afbeeldingen/fungus.png}
+\subsubsection{RANK filters}
+\begin{wrapfigure}{r}{0.5\linewidth}
+    \includegraphics[width=1\linewidth, frame, keepaspectratio]{afbeeldingen/fungus.png}
   	\caption{Image of fungus sample.}
   	\label{fig_fungus}
 \end{wrapfigure}
 
-The image of the fungus that is used for all image improvement methods is presented in figure \ref{fig_fungus}.\\
-\\
-The two topmost pictures in figure \ref{fig:contrast_improvement} were taken by the same camera at different exposure settings. As can be seen the top image is clearly underexposed as the peaks of its histogram lie solely in the lowest quarter of the intensity spectrum. The second topmost image was taken at an auto-exposure setting meaning that the camera itself decides the best exposure setting. The bottommost picture contains the same information as the underexposed top image, the information however is spread over the total intensity spectrum by a sigmoid function as explained in \ref{section:imageimprovement}. The peaks of the improved image's histogram still represent the histogram of the top image.\\
-Since information cannot be added to the image, the bottommost image is only better when looked at it by a person, the histogram is discontinuous meaning that there is not as much transition between two values. This is especially noticeable at the edges of the frame where the original image is so dark that there is no information to spread. Since there are only one or two intensity values the resulting shift will still only consist of two values, resulting in shifted black bars.\\
-Because of the previous reason it would be safe to assume that the algorithm used could greatly improve if some sort of interpolation function is also added. This way the program would be able to try and fill in missing information.\\
-\\
-%FOURIER
-
-The original image and the image that were acquired using the $BILAT$,$CONT$ and $MORPH$ rank filters in different combinations are presented in figure \ref{fig_rank}.
+The image of the fungus that is used for all image improvement methods is presented in figure \ref{fig_fungus}, shown on the right.\\
+The original image and the image that were acquired using the $BILAT$, $CONT$ and $MORPH$ rank filters in different combinations are presented in figure \ref{fig_rank}.\\
 
 \begin{figure}[h!]
-	
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img.png}
-        \caption{Original image of fungus sample zoomed-in and in gray-scale.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img.png}
+        \caption{Zoomed-in gray-scale image of sample.}
         \label{fig_rank_plain}
     \end{subfigure}
-    \hspace*{\fill}
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_bilat.png}
-        \caption{Image using $BILAT$ , $r_{local}=20$ pixels.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img_bilat.png}
+        \caption{Image using $BILAT$ , $r_{local}=20$ pixels.}
         \label{fig_rank_bilat}
     \end{subfigure}
-    
-    \medskip
-    \begin{subfigure}[b]{0.4\textwidth}
+\\
+
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_cont.png}
-        \caption{Image using $CONT$ , $r_{local}=5$ pixels.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img_cont.png}
+        \caption{Image using $CONT$ , $r_{local}=5$ pixels.}
         \label{fig_rank_cont}
     \end{subfigure}
-    \hspace*{\fill}
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph.png}
-        \caption{Image using $MORPH$, $r_{local}=5$ pixels.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img_morph.png}
+        \caption{Image using $MORPH$, $r_{local}=5$ pixels.}
         \label{fig_rank_morph}
     \end{subfigure}
-    
-     \medskip
-     \begin{subfigure}[b]{0.4\textwidth}
+\\
+
+     \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph_bilat.png}
-        \caption{Image using respectively $BILAT$ and $MORPH$.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img_morph_bilat.png}
+        \caption{Image using respectively $BILAT$ and $MORPH$.}
         \label{fig_rank_morph_bilat}
-    
     \end{subfigure}
-    \hspace*{\fill}
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph_cont.png}
-        \caption{Image using respectively $CONT$ and  $MORPH$.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img_morph_cont.png}
+        \caption{Image using respectively $CONT$ and  $MORPH$.}
         \label{fig_rank_morph_cont}
     \end{subfigure}
-    
-	\medskip
-    
-    \begin{subfigure}[b]{0.4\textwidth}
+\\
+
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_cont_bilat.png}
-        \caption{Image using respectively $BILAT$ and $CONT$.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img_cont_bilat.png}
+        \vspace{3mm}
+        \caption{Image using respectively $BILAT$ and $CONT$.}
         \label{fig_rank_cont_bilat}
     \end{subfigure}
-    \hspace*{\fill}
-    \begin{subfigure}[b]{0.4\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, frame]{afbeeldingen/rank/img_morph_cont_bilat.png}
-        \caption{Image using respectively $BILAT$, $CONT$ and $MORPH$.}   
+        \includegraphics[width=0.8\textwidth, frame]{afbeeldingen/rank/img_morph_cont_bilat.png}
+        \caption[width=1\textwidth]{Image using respectively $BILAT$, $CONT$ and $MORPH$.}
         \label{fig_rank_morph_cont_bilat}
     \end{subfigure}
-    
-    \caption{Set of images using the $BILAT$,$CONT$ and $MORPH$ rank filters in different combinations} 
+\\
+
+    \caption{Set of images using the $BILAT$,$CONT$ and $MORPH$ rank filters in different combinations}
 	\label{fig_rank}
 \end{figure}
+\clearpage
 
 As expected, the $BILAT$ filter filters away some of the noise. This can be seen by the reduction of small dots in figure \ref{fig_rank_bilat}. However, it also removes some of the details. \\
 The $CONT$ filter improves contrast efficiently, making details more visible A downsides of the filter is, however, that it emphasizes noise and the dark edges. This causes the edges to lose quality. This could perhaps be solved by first using a high-pass filter to remove the slow darkening transition towards the edges. \\
 The $MORPH$ filter makes the edges between different components in the image more clearly visible. Which could prove to be useful when doing size measurements within the image. What's more, it also seems to reveal more of the details. A negative artefact of the $MORPH$ filter is that it emphasizes noise. \\
-Combining the filters also proves to be useful, especially combinations with the $BILAT$ filter. In this case, the noise removal and detail loss is compensated by either of the other two filters. However, when many details need to be revolved, one might be better-off not using the $BILAT$ filter and accepting relatively much noise. 
+Combining the filters also proves to be useful, especially combinations with the $BILAT$ filter. In this case, the noise removal and detail loss is compensated by either of the other two filters. However, when many details need to be revolved, one might be better-off not using the $BILAT$ filter and accepting relatively much noise.
 
 
 

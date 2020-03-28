@@ -7,7 +7,7 @@ The microscope that is used in all experiments is a Leica DM EP microscope. Its 
 \subsection{Calibration}
 \label{expmeth_calibration}
 A microscopic ruler is used to measure the length that corresponds to one pixel in an image, $l_{pixel}$. This is achieved by focussing on a 1 mm, 100 division ruler and measuring the distance between two focussed, distant division lines and comparing the number of pixels to the physical length. The NI software is used to find the exact location of these two lines and subsequently find the perpendicular projection distance, $n_{pixels}$. This procedure is repeated for all three objectives. \\
-\bigskip 
+\bigskip
 With the aid of a 1951 USAF resolution target, the resolving power of each objective can be found. First taking a focussed gray-scale image  on the target and then taking a perpendicular intensity profile for each well defined three-bar structure (see Figure \ref{fig:resolution_target}). This intensity profile is exported by NI Vision to a CSV file directly so we dont suffer from any compression, a file which can be easily read by a python peakfinding script ( an example of which can be seen in the next section's figure \ref{fig:linetrace}). The high and low intensity values will be used to calculate the visibility using equation \ref{eq_visibility} and the corresponding spatial frequency. This is repeated for all three objectives.\\
 
 \begin{equation}
@@ -21,7 +21,7 @@ All microscopic size measurements are made by measuring pixels and comparing thi
 
 \subsubsection*{Human hair and optical glass fibre}
 
-Measuring the thickness of the human hair and optical glass fibre is done with the aid of the NI Vision software. First finding the two straight lines of the outer edges and subsequently measuring the perpendicular distance between the two, $n_{hair}$ and $n_{gf}$ in pixels. The physical size, $d_{hair}$ and $d_{gf}$, and error can be calculated using respectfully equation \ref{eq_distance} and \ref{eq_u_distance}. 
+Measuring the thickness of the human hair and optical glass fibre is done with the aid of the NI Vision software. First finding the two straight lines of the outer edges and subsequently measuring the perpendicular distance between the two, $n_{hair}$ and $n_{gf}$ in pixels. The physical size, $d_{hair}$ and $d_{gf}$, and error can be calculated using respectfully equation \ref{eq_distance} and \ref{eq_u_distance}.
 
 
 \subsubsection*{Starch particles}
@@ -44,7 +44,7 @@ A sigmoid function is a function $f(x)$ that maps its domain to values between z
     f(x) = \frac{1}{1+e^{-\frac{x-\alpha}{\beta}}}
     \label{eq:sigmoid}
 \end{equation}
-\newpage
+
 \begin{wrapfigure}{l}{0.55\textwidth}
     \centering
     \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/sigmoid_explained.png}
@@ -58,7 +58,7 @@ As can be seen in the figure the peaks of the most common values of the intensit
 
 % FOURIER FILTERING
 
-Rank filters are a type of linear filters that make use of the local gray scale pixel values. This type of first make a gray scale histogram of the pixels in the neighbourhood to applying local filters for smoothing, sharpening, noise reduction etc. (\cite{rank}).  
+Rank filters are a type of linear filters that make use of the local gray scale pixel values. This type of first make a gray scale histogram of the pixels in the neighbourhood to applying local filters for smoothing, sharpening, noise reduction etc. (\cite{rank}).
 For this experiment, the bilateral mean filter, $BILAT$, the local contrast enhancement filter, $CONT$, and the local morphological contrast enhancement filter, $MORPH$, are implemented on the image of the fungus using the python Scikit-image package.\\
 $BILAT$ makes the gray-level of pixels in a local neighbourhood similar to the central ones. It should therefore help to reduce noise. $CONT$ improves contrast for every local neighbourhood. $MORPH$ replaces a pixel values for either the local maximum or the local minimum. (\cite{rank}) \\
 The image that is being used for this experiment is zoomed-in in order to see noise and fine details. A radius of $r_{local} = 20$ is used for $BILAT$, and for the other filters, a radius of $r_{local} = 5$ pixels is used for the local pixel neighbourhood. To explore how the image can be improved best, the filters are used in different combinations and compared.
