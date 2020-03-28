@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{hecht}
+E.~Hecht, {\em Optics}.
+\newblock Pearson Education, Inc., 2016.
+
+\bibitem{starch}
+H.~Saari, K.~Heravifar, M.~Rayner, M.~Wahlgren, and M.~Sj{\"o}{\"o},
+  ``Preparation and characterization of starch particles for use in pickering
+  emulsions,'' {\em Cereal Chemistry}, vol.~93, no.~2, pp.~116--124, 2016.
+
+\bibitem{olympus}
+M.~Abramowitz and M.~W. Davidson, ``Optical birefringence,'' 2012.
+
+\bibitem{bf_chart}
+C.~Zeiss, ``Michel-lévy color chart.''
+
+\bibitem{histogram_theory}
+``Image processing with ni vision development module.''
+  \url{https://www.ni.com/nl-nl/innovations/white-papers/06/image-processing-with-ni-vision-development-module.html},
+  mar 2019.
+
+\bibitem{tutorial}
+T.~Wilson, M.~Friedrich, and A.~Diaspro, ``Basics of light microscopy and
+  imaging.''
+
+\bibitem{article_sigmoid}
+D.~S. Lal and M.~Chandra, ``Efficient algorithm for contrast enhancement of
+  natural images,'' {\em International Arab Journal of Information Technology},
+  vol.~11, pp.~96--102, 01 2014.
+
+\bibitem{rank}
+``Rank filters¶.''
+
+\end{thebibliography}
