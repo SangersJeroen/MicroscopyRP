@@ -53,9 +53,9 @@ A colour on a Michel-L\'evy colour chart (\cite{bf_chart}) corresponds to a valu
 
 
 
-\subsection{Computerized image improvement}
+\subsection{Image improvement methods}
 One of the goals of the experiment is to devise and test digital filters to improve image quality, such as contrast and noise removal.\\
-Image features are easier to distinguish if the contrast is high. A way of quantitatively expressing image contrast is through a histogram as outlined in the NI Vision article \cite{histogram_theory}. As illustrated by the two coloured images in figure \ref{fig:hcfoto} and \ref{fig:lcphoto}, the high contrast image in figure \ref{fig:hcfoto}, has pixel intensities that are more spread over whole range. The peaks in the histogram of figure \ref{fig:hc} are therefore further apart than in figure \ref{fig:lcfoto}.
+Image features are easier to distinguish if the contrast is high. A way of quantitatively expressing image contrast is through a histogram as outlined in the NI Vision article \cite{histogram_theory}. As illustrated by the two-coloured images in figure \ref{fig:hcphoto} and \ref{fig:lcphoto}, the high contrast image in figure \ref{fig:hcphoto}, has pixel intensities that are more spread over whole range. The peaks in the histogram of figure \ref{fig:hcphoto} are therefore further apart than in figure \ref{fig:lcphoto}.
 
 \begin{figure}[h!]
     \centering
@@ -73,11 +73,9 @@ Image features are easier to distinguish if the contrast is high. A way of quant
     \end{minipage}
 \end{figure}
 
-One way to improve contrast is by applying a contrast improving function on the pixel values of an image.\\
 Noise is a phenomenon that cannot be evaded. However, some of the noise can be removed by digital filters, such as rank, median and NxN filters (\cite{tutorial}). \\
-Some images suffer from unwanted information, such as uneven illumination or shot noise. Some of this can easily be removed since they only  occur in another frequency-domain than the information we are interested in. One way to select only wanted frequencies is by using Fourier transformations.\\
 \\
-In this experiment, the sigmoid function to improve contrast, frequency filtering using Fourier transformations and the rank filters from the python skimage package are studied and to what extend they can be used to improve an image.
+In this experiment, the sigmoid function to improve contrast and rank filters from the python Sci-kit package are studied and to what extend they can be used to improve an image.
 
 
 
@@ -104,7 +102,7 @@ From this it follows that $u(d_{physical})$, $u(A)$ and $u(\Delta n)$, are given
 
 \begin{equation}
 	\label{eq_u_bf}
-	u(\Delta n) = \sqrt{\left( u(\Delta l_{path}) \cdot \frac{1}{D}\right)^2 + \left( u(D) \cdot \frac{l_{path}}{D^2}\right)^2}
+	u(\Delta n) = \sqrt{\left( u(\Delta l_{path}) \cdot \frac{1}{D}\right)^2 + \left( u(D) \cdot \frac{\Delta l_{path}}{D^2}\right)^2}
 \end{equation}
 
 
