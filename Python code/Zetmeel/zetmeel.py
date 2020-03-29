@@ -36,3 +36,9 @@ plt.ylabel('Frequency')
 plt.ticklabel_format(style='sci', axis='x',scilimits=(1,4))
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/histogram_zetmeel.png')
 plt.show()
+
+mean = np.mean(A)
+std = np.sqrt(np.sum((A-mean)**2)/len(A))
+
+print('mean = ', mean)
+print('std = ', std)
