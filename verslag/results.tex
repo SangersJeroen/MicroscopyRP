@@ -6,7 +6,7 @@ The values that have been found for $d_{physical}$, $n_{pixels}$, $l_{pixel}$ an
 \begin{table}[h!]
 \centering
 \captionsetup{font=small, justification = centering}
-  \caption{Results of measurements of $n_{pixels}$ for the corresponding value of $d_{physical}$ for each objective. The values for $l_{pixel}$ and $u(l_{pixel})$ follow from respectfully equation \ref{eq_pixelsize} and \ref{eq_u_pixelsize}.}
+  \caption{Results of measurements of $n_{pixels}$ for the corresponding value of $d_{physical}$ for each objective. The values for $l_{pixel}$ and $u(l_{pixel})$ follow from respectfully equation \ref{eq_distance} and \ref{eq_u_distance}.}
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 
@@ -104,8 +104,11 @@ To find out if this experimental set-up is sufficient, the found value for $\Del
 \begin{wrapfigure}{l}{0.6\textwidth}
   \centering
   \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/donkerhistogram.png}
+  \vspace{3mm}
   \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/lichthistogram.png}
+  \vspace{3mm}
   \includegraphics[width=0.55\textwidth,keepaspectratio]{afbeeldingen/Histogram_results/improved_contrast_histogram.png}
+  \vspace{3mm}
   \caption{From top to bottom: an underexposed image, an auto exposed image and the underexposed image altered by a sigmoid.}
   \label{fig:contrast_improvement}
 \end{wrapfigure}
@@ -114,7 +117,9 @@ The two topmost pictures in figure \ref{fig:contrast_improvement} were taken by 
 Since information cannot be added to the image, the bottommost image is only better when looked at it by a person, the histogram is discontinuous meaning that there is not as much transition between two values. This is especially noticeable at the edges of the frame where the original image is so dark that there is no information to spread. Since there are only one or two intensity values the resulting shift will still only consist of two values, resulting in shifted black bars.\\
 Because of the previous reason it would be safe to assume that the algorithm used could greatly improve if some sort of interpolation function is also added. This way the program would be able to try and fill in missing information.\\
 \\
-The original image and the image that were acquired using the $BILAT$,$CONT$ and $MORPH$ rank filters in different combinations are presented in figure \ref{fig_rank}.
+The original image and the image that were acquired using the $BILAT$,$CONT$ and $MORPH$ rank filters in different combinations are presented in figure \ref{fig_rank}.\\
+As expected, the $BILAT$ filter filters away some of the noise. This can be seen by the reduction of small dots in figure \ref{fig_rank_bilat}. However, it also removes some of the details. The $CONT$ filter improves contrast efficiently, making details more visible A downsides of the filter is, however, that it emphasizes noise and the dark edges. This causes the edges to lose quality. This could perhaps be solved by first using a high-pass filter to remove the slow darkening transition towards the edges. The $MORPH$ filter makes the edges between different components in the image more clearly visible. Which could prove to be useful when doing size measurements within the image or when imposing edge detecting. What's more, it also seems to reveal more of the details. A negative artefact of the $MORPH$ filter is that it emphasizes noise. \\
+Combining the filters also proves to be useful, especially combinations with the $BILAT$ filter. In this case, the noise removal and detail loss is compensated by either of the other two filters (see figure \ref{fig_rank_cont_bilat} and \ref{fig_rank_morph_bilat}). However, when many details need to be revolved, one might be better-off not using the $BILAT$ filter and accepting relatively much noise (see figure \ref{fig_rank_morph_cont}).
 
 \begin{figure}[h!]
     \begin{subfigure}[b]{0.5\textwidth}
@@ -178,11 +183,3 @@ The original image and the image that were acquired using the $BILAT$,$CONT$ and
 	\label{fig_rank}
 \end{figure}
 \clearpage
-
-As expected, the $BILAT$ filter filters away some of the noise. This can be seen by the reduction of small dots in figure \ref{fig_rank_bilat}. However, it also removes some of the details. \\
-The $CONT$ filter improves contrast efficiently, making details more visible A downsides of the filter is, however, that it emphasizes noise and the dark edges. This causes the edges to lose quality. This could perhaps be solved by first using a high-pass filter to remove the slow darkening transition towards the edges. \\
-The $MORPH$ filter makes the edges between different components in the image more clearly visible. Which could prove to be useful when doing size measurements within the image or when imposing edge detecting. What's more, it also seems to reveal more of the details. A negative artefact of the $MORPH$ filter is that it emphasizes noise. \\
-Combining the filters also proves to be useful, especially combinations with the $BILAT$ filter. In this case, the noise removal and detail loss is compensated by either of the other two filters (see figure \ref{fig_rank_cont_bilat} and \ref{fig_rank_morph_bilat}). However, when many details need to be revolved, one might be better-off not using the $BILAT$ filter and accepting relatively much noise (see figure \ref{fig_rank_morph_cont}). 
-
-
-
