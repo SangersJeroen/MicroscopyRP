@@ -59,6 +59,7 @@ A colour on a Michel-L\'evy colour chart (\cite{bf_chart}) corresponds to a valu
 \vspace{5mm}
 
 
+
 \subsection{Computerised image improvement}
 One of the goals of the experiment is to devise and test digital filters to improve image quality, by icreasing contrast and removing unwanted noise.\\
 Image features are easier to distinguish when the contrast is high. A way of quantitatively expressing image contrast is through a histogram as outlined in the NI Vision article \cite{histogram_theory}. As illustrated by the two greyscale images in figure \ref{fig:hcphoto} and \ref{fig:lcphoto}, the high contrast image in figure \ref{fig:hcphoto}, has pixel intensity peaks that are spread over the whole intensity range compared to the peaks of figure \ref{fig:lcphoto}. The features of figure \ref{fig:hcphoto} are therefore easier to resolve than the features in figure \ref{fig:lcphoto}. One way to improve contrast is by applying a contrast improving function on the pixel values of an image. This function will work by spreading these intensity peaks further apart on the spectrum.\\
@@ -79,11 +80,12 @@ Image features are easier to distinguish when the contrast is high. A way of qua
     \end{minipage}
 \end{figure}
 
+
 Noise is a phenomenon that cannot be evaded. However, some of the noise can be removed by using digital filters, such as rank, median and NxN filters (\cite{tutorial}).\\
 Some images suffer from unwanted information, such as uneven illumination or shot noise. Some of this can easily be removed since they only  occur in another frequency-domain than the information we are interested in. One way to select only wanted frequencies is by using Fourier transformations.\\
-\\
-In this experiment, the sigmoid function to improve contrast and the rank filters from the python skimage package are studied and to what extend they can be used to improve an image.\\
 
+\\
+In this experiment, the sigmoid function to improve contrast and rank filters from the python Sci-kit package are studied and to what extend they can be used to improve an image.
 
 
 \subsection{Error calculation}
@@ -109,5 +111,5 @@ From this it follows that $u(d_{physical})$, $u(A)$ and $u(\Delta n)$, are given
 
 \begin{equation}
 	\label{eq_u_bf}
-	u(\Delta n) = \sqrt{\left( u(\Delta l_{path}) \cdot \frac{1}{D}\right)^2 + \left( u(D) \cdot \frac{l_{path}}{D^2}\right)^2}
+	u(\Delta n) = \sqrt{\left( u(\Delta l_{path}) \cdot \frac{1}{D}\right)^2 + \left( u(D) \cdot \frac{\Delta l_{path}}{D^2}\right)^2}
 \end{equation}
