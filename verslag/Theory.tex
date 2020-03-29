@@ -2,8 +2,10 @@
 
 A polarizing microscope is used for the experiments in this report. In this section the basic principles of a polarizing microscope and the theory that is used for the experiments are described.
 
-\begin{wrapfigure}{r}{0.3\textwidth}
-    \includegraphics[width=0.25\textwidth]{afbeeldingen/compound_microscope.png}
+\begin{wrapfigure}{r}{0.4\linewidth}
+	\vspace{-5mm}
+	\centering
+    \includegraphics[width=0.4\textwidth]{afbeeldingen/compound_microscope.png}
   	\caption{Schematic drawing of a compound microscope. $f_{e}$ and $f_{o}$ correspond to respectively to the focussing distance of the eyepiece and objective. This figure was apdapted from Hecht, 2016 \cite{hecht}.}
   	\label{fig_compound_microscope}
 \end{wrapfigure}
@@ -14,14 +16,16 @@ Polarizing microscopes are a type of microscopes that make use of polarizing win
 
 \subsection{size measurements}
 In this experiment it was chosen to use a CCD camera to record the imaged from the microscope. To measure distances in a sample it is possible to convert a distance in pixels, $n_{pixels}$, to physical units such as meters. For this, we need a conversion factor that gives the length in meters per pixel, $l_{pixel}$. The physical distance, $d_{physical}$ can easily be calculated using equation \ref{eq_distance}.
+The value for $l_{pixel}$ should be larger for greater magnifying power.\\
 
 \begin{equation}
 	\label{eq_distance}
 	d_{physical} = l_{pixel} \cdot n_{pixels}
 \end{equation}
 
-The value for $l_{pixel}$ should be larger for greater magnifying power.\\
-\\
+\bigskip
+\vspace{5mm}
+
 One of the purposes of this experiment is to find out if it is possible to do microscopic measurements with the given microscope. Human hairs and glass fibres have a diameter in the range of 10 - 100 $\mu m$. Measuring the diameter could give insights into the suitability of the given microscope for measurements of this scale.\\
 Another purpose for a microscope could be to find sizes of many particles. From this information one could get the average particle size and the distribution for these values. Starch particles have a size up to 100 $\mu m$ and are often ellipse-shaped (\cite{starch}). The size of ellipse-shaped starch particles will be measured in this experiment. The cross section of a particle, $A$, can be calculated using the major and minor diameter of the ellipse, respectively $a$ and $b$, and equation \ref{eq_ellipse}.
 
@@ -29,10 +33,11 @@ Another purpose for a microscope could be to find sizes of many particles. From 
 	\label{eq_ellipse}
 	A = 1/4 \cdot a \cdot b \cdot \pi
 \end{equation}
-	
+\clearpage
+
 \subsection{Birefringence}
 
-Birefringence is an optical property that arises when the refractive index depends on the polarization of incoming light. The quantity birefringence, $\Delta n$, is characterized as the maximum difference between refractive indices (\cite{hecht}). \\ 
+Birefringence is an optical property that arises when the refractive index depends on the polarization of incoming light. The quantity birefringence, $\Delta n$, is characterized as the maximum difference between refractive indices (\cite{hecht}). \\
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 	\centering
@@ -43,18 +48,21 @@ Birefringence is an optical property that arises when the refractive index depen
 
 When a birefringent material is viewed in a polarizing microscope with the polariser and analyser crossed, bright colours may be observed. The polarized light entering the sample can be decomposed into two orthogonal components, which will experience a different refractive index due to the birefringent properties. The difference in refractive index will result in a path difference, $\Delta l_{path}$, between the two orthogonal components. When these two components interfere, the sum of the two might have changed from polarisation direction, allowing the light to pass the analyser. A schematic diagram of this process can be seen in figure \ref{fig_bf_diagram}. \\
 $\Delta l_{path}$ depends on the thickness of the sample, $D$, but also on the wavelength of the light (\cite{hecht}). This means that, for a specific thickness of the sample, the sample will result in positive interference for one wavelength and (partially) negative interference for the others. Subsequently, one colour will be observed for a specific sample thickness.\\
-A colour on a Michel-L\'evy colour chart (\cite{bf_chart}) corresponds to a value for $\Delta l_{path}$. Subsequently, the value for $\Delta n$ can be determined using equation \eqref{eq_bf} (\cite{hecht}).  
+A colour on a Michel-L\'evy colour chart (\cite{bf_chart}) corresponds to a value for $\Delta l_{path}$. Subsequently, the value for $\Delta n$ can be determined using equation \eqref{eq_bf} (\cite{hecht}).
 
 \begin{equation}
 	\label{eq_bf}
 	\Delta l_{path} = D \cdot \Delta n
 \end{equation}
-	
 
+
+\bigskip
+\vspace{5mm}
 
 
 \subsection{Image improvement methods}
 One of the goals of the experiment is to devise and test digital filters to improve image quality, such as contrast and noise removal.\\
+\\
 Image features are easier to distinguish if the contrast is high. A way of quantitatively expressing image contrast is through a histogram as outlined in the NI Vision article \cite{histogram_theory}. As illustrated by the two-coloured images in figure \ref{fig:hcphoto} and \ref{fig:lcphoto}, the high contrast image in figure \ref{fig:hcphoto}, has pixel intensities that are more spread over whole range. The peaks in the histogram of figure \ref{fig:hcphoto} are therefore further apart than in figure \ref{fig:lcphoto}.
 
 \begin{figure}[h!]
@@ -78,7 +86,6 @@ Noise is a phenomenon that cannot be evaded. However, some of the noise can be r
 In this experiment, the sigmoid function to improve contrast and rank filters from the python Sci-kit package are studied and to what extend they can be used to improve an image.
 
 
-
 \subsection{Error calculation}
 
 If $Y$ is a variable which is a function of $A$,$B$,$C$, ... Then the error of $Y$, $u(Y)$, is given by equation \ref{eq_error}.
@@ -88,7 +95,7 @@ If $Y$ is a variable which is a function of $A$,$B$,$C$, ... Then the error of $
 	u(Y) = \sqrt{\left(u(A) \frac{\partial Y}{\partial A}\right)^2 + \left(u(B) \frac{\partial Y}{\partial B}\right)^2 + \left(u(C) \frac{\partial Y}{\partial C}\right)^2 + ...}
 \end{equation}
 
-From this it follows that $u(d_{physical})$, $u(A)$ and $u(\Delta n)$, are given respectively by equations \ref{eq_u_d}, \ref{eq_u_A} and \ref{eq_u_bf}.
+From this it follows that $u(d_{physical})$, $u(A)$ and $u(\Delta n)$, are given respectively by equations \ref{eq_u_distance}, \ref{eq_u_ellipse} and \ref{eq_u_bf}.
 
 \begin{equation}
 	\label{eq_u_distance}
@@ -104,16 +111,3 @@ From this it follows that $u(d_{physical})$, $u(A)$ and $u(\Delta n)$, are given
 	\label{eq_u_bf}
 	u(\Delta n) = \sqrt{\left( u(\Delta l_{path}) \cdot \frac{1}{D}\right)^2 + \left( u(D) \cdot \frac{\Delta l_{path}}{D^2}\right)^2}
 \end{equation}
-
-
-
-
-
-
-
-
-
-
-\begin{comment}
-In  theTheorie  (Theory)  chapter,  you  describe  all  (and  only!)  the  theory needed  to  understand  and  interpret the experiments  in  the  remainder  of  the  report.    Explain  to  the  reader  why  a  piece  of  theory  is  relevant  for  your  research.  Equations  should  be  numbered.  If  an  equation  cannot  be  assumed  to  be  generally known by the readers (see General Hint 2 for the level of the audience), you should provide a reference to an accessible textbook or article (so not to the RP manual, lecture notes, Wikipedia etc.). In general, try to avoid referring to websites, online data or Wikipedia.
-\end{comment}

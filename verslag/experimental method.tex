@@ -15,6 +15,7 @@ With the aid of a 1951 USAF resolution target, the resolving power of each objec
   \label{eq:visibility}
 \end{equation}
 \subsection{Microscopic size measurements}
+
 All microscopic size measurements are made by measuring pixels and comparing this to the corresponding pixel length. This is done for images with the $40\times$ objective since this gives the smallest error.\\
 \\
 Measuring the thickness of the human hair and optical glass fibre is done with the aid of the NI Vision software. First finding the two straight lines of the outer edges and subsequently measuring the perpendicular distance between the two, $n_{hair}$ and $n_{gf}$ in pixels. The physical size, $d_{hair}$ and $d_{gf}$, and error can be calculated using respectfully equation \ref{eq_distance} and \ref{eq_u_distance}. \\
@@ -48,7 +49,7 @@ A sigmoid function is a function $f(x)$ that maps its domain to values between z
 In figure \ref{fig:sigmoid} on the left, the low contrast example figure and its histogram are plotted in the top row. In the middle row a sigmoid function has been plotted, as well as the median value and the standard deviation of the histogram above denoted by respectively the grey solid and dashed line. The bottom row consists of the histogram of the example image and the image acted on by the sigmoid function. In this example we used a sigmoid function $f'(x)=f(x) \cdot 255$ since we want to map our input values on a domain $[0,255]$ not $[0,1]$, $\alpha$ is the median of the top histogram and $\beta$ its standard deviation.\\
 As can be seen in the figure the peaks of the most common values of the intensity have been spread further apart thus resulting in a higher contrast image.\\
 \\
-Rank filters are a type of linear filters that make use of the local gray scale pixel values. This type of first make a gray scale histogram of the pixels in the neighbourhood to applying local filters for smoothing, sharpening, noise reduction etc. (\cite{rank}).  
+Rank filters are a type of linear filters that make use of the local gray scale pixel values. This type of first make a gray scale histogram of the pixels in the neighbourhood to applying local filters for smoothing, sharpening, noise reduction etc. (\cite{rank}).  \\
 For this experiment, the bilateral mean filter, $BILAT$, the local contrast enhancement filter, $CONT$, and the local morphological contrast enhancement filter, $MORPH$, are implemented on the image of the fungus using the python Scikit-image package.\\
 $BILAT$ makes the gray-level of pixels in a local neighbourhood similar to the central ones. It should therefore help to reduce noise. $CONT$ improves contrast for every local neighbourhood. $MORPH$ replaces a pixel values for either the local maximum or the local minimum. (\cite{rank}) \\
 The image that is being used for this part of the experiment is zoomed-in in order to see noise and fine details. A radius of $r_{local} = 20$ is used for $BILAT$, and for the other filters, a radius of $r_{local} = 5$ pixels is used for the local pixel neighbourhood. To explore how the image can be improved best, the filters are used in different combinations and compared.
