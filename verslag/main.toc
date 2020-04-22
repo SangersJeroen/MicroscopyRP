@@ -1,28 +1,28 @@
 \babel@toc {nil}{}
-\contentsline {section}{Abstract}{i}{Doc-Start}% 
-\contentsline {section}{Table of contents}{ii}{section*.1}% 
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}% 
-\contentsline {section}{\numberline {2}Theory}{2}{section.2}% 
-\contentsline {subsection}{\numberline {2.1}Microscopy}{2}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}size measurements}{2}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Birefringence}{3}{subsection.2.3}% 
-\contentsline {subsection}{\numberline {2.4}Computerised image improvement}{3}{subsection.2.4}% 
-\contentsline {subsection}{\numberline {2.5}Error calculation}{4}{subsection.2.5}% 
-\contentsline {section}{\numberline {3}Experimental method}{5}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Calibration}{5}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Microscopic size measurements}{5}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Birefringence}{6}{subsection.3.3}% 
-\contentsline {subsection}{\numberline {3.4}Image improvement methods}{6}{subsection.3.4}% 
-\contentsline {section}{\numberline {4}Results and discussion}{8}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Calibration}{8}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Resolving power}{8}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Size measurements}{9}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Birefringence}{10}{subsection.4.4}% 
-\contentsline {subsection}{\numberline {4.5}Image improvements methods}{11}{subsection.4.5}% 
-\contentsline {section}{\numberline {5}Conclusions}{13}{section.5}% 
-\contentsline {section}{List of references}{14}{section.5}% 
-\contentsline {section}{Appendices}{i}{section*.16}% 
-\contentsline {subsection}{\numberline {Appendix A}Leica DM EP manual}{i}{subsection.Alph0.1}% 
-\contentsline {subsection}{\numberline {Appendix B}Calibration}{iv}{subsection.Alph0.2}% 
-\contentsline {subsection}{\numberline {Appendix C}Size Measurements}{v}{subsection.Alph0.3}% 
-\contentsline {subsection}{\numberline {Appendix D}Birefringence}{viii}{subsection.Alph0.4}% 
+\contentsline {section}{Abstract}{i}{Doc-Start}%
+\contentsline {section}{Table of contents}{ii}{section*.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Microscopy}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}size measurements}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Birefringence}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Computerised image improvement}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Error calculation}{4}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Experimental method}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Calibration}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Microscopic size measurements}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Birefringence}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Image improvement methods}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Results and discussion}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Calibration}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Resolving power}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Size measurements}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Birefringence}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Image improvements methods}{11}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Conclusions}{13}{section.5}%
+\contentsline {section}{List of references}{14}{section.5}%
+\contentsline {section}{Appendices}{i}{section*.16}%
+\contentsline {subsection}{\numberline {Appendix A}Leica DM EP manual}{i}{subsection.Alph0.1}%
+\contentsline {subsection}{\numberline {Appendix B}Calibration}{iv}{subsection.Alph0.2}%
+\contentsline {subsection}{\numberline {Appendix C}Size Measurements}{v}{subsection.Alph0.3}%
+\contentsline {subsection}{\numberline {Appendix D}Birefringence}{viii}{subsection.Alph0.4}%
