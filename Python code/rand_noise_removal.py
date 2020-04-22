@@ -38,57 +38,48 @@ morph_cont = enhance_contrast(cont/255, disk(5))
 
 print(np.shape(image))
 
-plt.axis('off')
 
 
 img = plt.imshow(image_cut,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img.png', bbox_inches='tight')
 
 plt.clf
 
 
 img_bilat = plt.imshow(bilat,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img_bilat.png', bbox_inches='tight')
 
 plt.clf
 
 img_cont = plt.imshow(cont,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img_cont.png', bbox_inches='tight')
 
 plt.clf
 
 img_morph = plt.imshow(morph,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img_morph.png', bbox_inches='tight')
 
 plt.clf
 
 img_morph_bilat = plt.imshow(morph_bilat,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img_morph_bilat.png', bbox_inches='tight')
 
 plt.clf
 
 img_morph_glob_bilat = plt.imshow(morph_cont_bilat,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img_morph_cont_bilat.png', bbox_inches='tight')
 
 plt.clf
 
 img_cont_bilat = plt.imshow(cont_bilat,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img_cont_bilat.png', bbox_inches='tight')
 
 plt.clf
 
 img_morph_cont = plt.imshow(morph_cont,cmap='gray')
-plt.axis('off')
 plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/rank/img_morph_cont.png', bbox_inches='tight')
 
-plt.clf
+
 
 
 #fig, ax = plt.subplots(1, 2, figsize=(10, 7), sharex=True, sharey=True)
