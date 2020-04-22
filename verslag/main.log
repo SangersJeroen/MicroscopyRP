@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  22 APR 2020 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  22 APR 2020 15:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -1211,12 +1211,12 @@ input line 37.
 
  <./afbeeldingen/process_visibility/m3_bw.jpg> <./afbeeldingen/process_visibili
 ty/m3_rpg_7.png>]
-<afbeeldingen/visibilities.png, id=293, 338.2236pt x 396.5214pt>
+<afbeeldingen/visibilities.png, id=294, 338.2236pt x 396.5214pt>
 File: afbeeldingen/visibilities.png Graphic file (type png)
 <use afbeeldingen/visibilities.png>
 Package pdftex.def Info: afbeeldingen/visibilities.png  used on input line 51.
 (pdftex.def)             Requested size: 204.85974pt x 240.17146pt.
-<afbeeldingen/histogram_zetmeel.png, id=294, 462.528pt x 344.0052pt>
+<afbeeldingen/histogram_zetmeel.png, id=295, 462.528pt x 344.0052pt>
 File: afbeeldingen/histogram_zetmeel.png Graphic file (type png)
 <use afbeeldingen/histogram_zetmeel.png>
 Package pdftex.def Info: afbeeldingen/histogram_zetmeel.png  used on input line
@@ -1228,7 +1228,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--69
  []
 
 [9 <./afbeeldingen/visibilities.png> <./afbeeldingen/histogram_zetmeel.png>]
-<afbeeldingen/bf_colourplanes.png, id=313, 735.49782pt x 593.21625pt>
+[10]
+<afbeeldingen/bf_colourplanes.png, id=319, 735.49782pt x 593.21625pt>
 File: afbeeldingen/bf_colourplanes.png Graphic file (type png)
 <use afbeeldingen/bf_colourplanes.png>
 Package pdftex.def Info: afbeeldingen/bf_colourplanes.png  used on input line 8
@@ -1244,13 +1245,13 @@ Underfull \hbox (badness 2717) in paragraph at lines 84--84
 \OT1/cmr/m/n/9 were taken into account for this
  []
 
-<afbeeldingen/bf_plot.png, id=314, 462.528pt x 344.0052pt>
+<afbeeldingen/bf_plot.png, id=320, 462.528pt x 344.0052pt>
 File: afbeeldingen/bf_plot.png Graphic file (type png)
 <use afbeeldingen/bf_plot.png>
 Package pdftex.def Info: afbeeldingen/bf_plot.png  used on input line 90.
 (pdftex.def)             Requested size: 226.56697pt x 168.51152pt.
-[10 <./afbeeldingen/bf_colourplanes.png> <./afbeeldingen/bf_plot.png>]
-<afbeeldingen/Histogram_results/donkerhistogram.png, id=325, 383.93437pt x 167.
+[11 <./afbeeldingen/bf_colourplanes.png> <./afbeeldingen/bf_plot.png>]
+<afbeeldingen/Histogram_results/donkerhistogram.png, id=330, 383.93437pt x 167.
 30505pt>
 File: afbeeldingen/Histogram_results/donkerhistogram.png Graphic file (type png
 )
@@ -1258,7 +1259,7 @@ File: afbeeldingen/Histogram_results/donkerhistogram.png Graphic file (type png
 Package pdftex.def Info: afbeeldingen/Histogram_results/donkerhistogram.png  us
 ed on input line 102.
 (pdftex.def)             Requested size: 238.49232pt x 103.92717pt.
-<afbeeldingen/Histogram_results/lichthistogram.png, id=326, 383.93437pt x 167.3
+<afbeeldingen/Histogram_results/lichthistogram.png, id=331, 383.93437pt x 167.3
 0505pt>
 File: afbeeldingen/Histogram_results/lichthistogram.png Graphic file (type png)
 
@@ -1266,7 +1267,7 @@ File: afbeeldingen/Histogram_results/lichthistogram.png Graphic file (type png)
 Package pdftex.def Info: afbeeldingen/Histogram_results/lichthistogram.png  use
 d on input line 104.
 (pdftex.def)             Requested size: 238.49232pt x 103.92717pt.
-<afbeeldingen/Histogram_results/improved_contrast_histogram.png, id=327, 383.93
+<afbeeldingen/Histogram_results/improved_contrast_histogram.png, id=332, 383.93
 437pt x 167.30505pt>
 File: afbeeldingen/Histogram_results/improved_contrast_histogram.png Graphic fi
 le (type png)
@@ -1274,6 +1275,16 @@ le (type png)
 Package pdftex.def Info: afbeeldingen/Histogram_results/improved_contrast_histo
 gram.png  used on input line 106.
 (pdftex.def)             Requested size: 238.49232pt x 103.92717pt.
+
+Underfull \hbox (badness 2073) in paragraph at lines 108--108
+\OT1/cmr/m/n/9 and corresponding intensity plot. From top to bottom:
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 108--108
+\OT1/cmr/m/n/9 an underexposed image, an auto exposed image and the
+ []
+
 
 Underfull \hbox (badness 1383) in paragraph at lines 112--119
 \OT1/cmr/m/n/10 as the peaks of its histogram lie
@@ -1324,15 +1335,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--119
 
  []
 
-[11 <./afbeeldingen/Histogram_results/donkerhistogram.png> <./afbeeldingen/Hist
+[12 <./afbeeldingen/Histogram_results/donkerhistogram.png> <./afbeeldingen/Hist
 ogram_results/lichthistogram.png> <./afbeeldingen/Histogram_results/improved_co
 ntrast_histogram.png>]
-<afbeeldingen/rank/img.png, id=344, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img.png, id=349, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img.png Graphic file (type png)
 <use afbeeldingen/rank/img.png>
 Package pdftex.def Info: afbeeldingen/rank/img.png  used on input line 123.
 (pdftex.def)             Requested size: 173.44865pt x 93.32262pt.
-<afbeeldingen/rank/img_bilat.png, id=345, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img_bilat.png, id=350, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img_bilat.png Graphic file (type png)
 <use afbeeldingen/rank/img_bilat.png>
 Package pdftex.def Info: afbeeldingen/rank/img_bilat.png  used on input line 12
@@ -1348,13 +1359,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--134
 
  []
 
-<afbeeldingen/rank/img_cont.png, id=346, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img_cont.png, id=351, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img_cont.png Graphic file (type png)
 <use afbeeldingen/rank/img_cont.png>
 Package pdftex.def Info: afbeeldingen/rank/img_cont.png  used on input line 137
 .
 (pdftex.def)             Requested size: 173.44865pt x 93.32262pt.
-<afbeeldingen/rank/img_morph.png, id=347, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img_morph.png, id=352, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img_morph.png Graphic file (type png)
 <use afbeeldingen/rank/img_morph.png>
 Package pdftex.def Info: afbeeldingen/rank/img_morph.png  used on input line 14
@@ -1370,13 +1381,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--148
 
  []
 
-<afbeeldingen/rank/img_morph_bilat.png, id=348, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img_morph_bilat.png, id=353, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img_morph_bilat.png Graphic file (type png)
 <use afbeeldingen/rank/img_morph_bilat.png>
 Package pdftex.def Info: afbeeldingen/rank/img_morph_bilat.png  used on input l
 ine 151.
 (pdftex.def)             Requested size: 173.44865pt x 93.32262pt.
-<afbeeldingen/rank/img_morph_cont.png, id=349, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img_morph_cont.png, id=354, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img_morph_cont.png Graphic file (type png)
 <use afbeeldingen/rank/img_morph_cont.png>
 Package pdftex.def Info: afbeeldingen/rank/img_morph_cont.png  used on input li
@@ -1392,13 +1403,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--162
 
  []
 
-<afbeeldingen/rank/img_cont_bilat.png, id=350, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img_cont_bilat.png, id=355, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img_cont_bilat.png Graphic file (type png)
 <use afbeeldingen/rank/img_cont_bilat.png>
 Package pdftex.def Info: afbeeldingen/rank/img_cont_bilat.png  used on input li
 ne 165.
 (pdftex.def)             Requested size: 173.44865pt x 93.32262pt.
-<afbeeldingen/rank/img_morph_cont_bilat.png, id=351, 398.9304pt x 214.6419pt>
+<afbeeldingen/rank/img_morph_cont_bilat.png, id=356, 398.9304pt x 214.6419pt>
 File: afbeeldingen/rank/img_morph_cont_bilat.png Graphic file (type png)
 <use afbeeldingen/rank/img_morph_cont_bilat.png>
 Package pdftex.def Info: afbeeldingen/rank/img_morph_cont_bilat.png  used on in
@@ -1420,7 +1431,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--177
 
  []
 
-[12 <./afbeeldingen/rank/img.png> <./afbeeldingen/rank/img_bilat.png> <./afbeel
+[13 <./afbeeldingen/rank/img.png> <./afbeeldingen/rank/img_bilat.png> <./afbeel
 dingen/rank/img_cont.png> <./afbeeldingen/rank/img_morph.png> <./afbeeldingen/r
 ank/img_morph_bilat.png> <./afbeeldingen/rank/img_morph_cont.png> <./afbeelding
 en/rank/img_cont_bilat.png> <./afbeeldingen/rank/img_morph_cont_bilat.png>])
@@ -1429,7 +1440,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-) [13
+) [14
 
 ] (literatuurlijst.tex) (main.bbl
 Underfull \hbox (badness 3780) in paragraph at lines 22--25
@@ -1437,8 +1448,8 @@ Underfull \hbox (badness 3780) in paragraph at lines 22--25
 T1/cmtt/m/n/10 https : / / www . ni . com / nl-[]nl /
  []
 
-) [14] (appendix_manual.tex
-<afbeeldingen/manual_cut_1.pdf, id=387, 598.4468pt x 796.85204pt>
+) [15] (appendix_manual.tex
+<afbeeldingen/manual_cut_1.pdf, id=391, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual_cut_1.pdf Graphic file (type pdf)
 <use afbeeldingen/manual_cut_1.pdf>
 Package pdftex.def Info: afbeeldingen/manual_cut_1.pdf  used on input line 6.
@@ -1449,7 +1460,7 @@ been already used, duplicate ignored
                    \relax 
 l.8 \newpage
             	 [1 <./afbeeldingen/manual_cut_1.pdf>]
-<afbeeldingen/manual_cut_3.pdf, id=412, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual_cut_3.pdf, id=417, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual_cut_3.pdf Graphic file (type pdf)
 <use afbeeldingen/manual_cut_3.pdf>
 Package pdftex.def Info: afbeeldingen/manual_cut_3.pdf  used on input line 11.
@@ -1460,37 +1471,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
                    \relax 
 l.13 \newpage
               [2 <./afbeeldingen/manual_cut_3.pdf>]
-<afbeeldingen/manual_cut_2.pdf, id=438, 598.4468pt x 796.85204pt>
+<afbeeldingen/manual_cut_2.pdf, id=442, 598.4468pt x 796.85204pt>
 File: afbeeldingen/manual_cut_2.pdf Graphic file (type pdf)
 <use afbeeldingen/manual_cut_2.pdf>
 Package pdftex.def Info: afbeeldingen/manual_cut_2.pdf  used on input line 16.
 (pdftex.def)             Requested size: 390.25536pt x 519.63779pt.
 ) [3 <./afbeeldingen/manual_cut_2.pdf>] (appendix_calibration.tex
-
-LaTeX Warning: Reference `fig_pixelszie_4x' on page iv undefined on input line 
-4.
-
-
-LaTeX Warning: Reference `fig_pixelszie_10x' on page iv undefined on input line
- 4.
-
-
-LaTeX Warning: Reference `fig_pixelszie_40x' on page iv undefined on input line
- 4.
-
-<afbeeldingen/pixelsize/pixelsize_4x.jpg, id=462, 462.528pt x 346.896pt>
+<afbeeldingen/pixelsize/pixelsize_4x.jpg, id=469, 462.528pt x 346.896pt>
 File: afbeeldingen/pixelsize/pixelsize_4x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_4x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_4x.jpg  used on input
  line 8.
 (pdftex.def)             Requested size: 199.16928pt x 149.37938pt.
-<afbeeldingen/pixelsize/pixelsize_10x.jpg, id=463, 462.528pt x 346.896pt>
+<afbeeldingen/pixelsize/pixelsize_10x.jpg, id=470, 462.528pt x 346.896pt>
 File: afbeeldingen/pixelsize/pixelsize_10x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_10x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_10x.jpg  used on inpu
 t line 16.
 (pdftex.def)             Requested size: 199.16928pt x 149.37938pt.
-<afbeeldingen/pixelsize/pixelsize_40x.jpg, id=464, 462.528pt x 346.896pt>
+<afbeeldingen/pixelsize/pixelsize_40x.jpg, id=471, 462.528pt x 346.896pt>
 File: afbeeldingen/pixelsize/pixelsize_40x.jpg Graphic file (type jpg)
 <use afbeeldingen/pixelsize/pixelsize_40x.jpg>
 Package pdftex.def Info: afbeeldingen/pixelsize/pixelsize_40x.jpg  used on inpu
@@ -1498,53 +1497,53 @@ t line 24.
 (pdftex.def)             Requested size: 199.16928pt x 149.37938pt.
 ) [4 <./afbeeldingen/pixelsize/pixelsize_4x.jpg> <./afbeeldingen/pixelsize/pixe
 lsize_10x.jpg> <./afbeeldingen/pixelsize/pixelsize_40x.jpg>] (appendix_size.tex
-<afbeeldingen/size/hair.jpg, id=471, 462.528pt x 346.896pt>
+<afbeeldingen/size/hair.jpg, id=478, 462.528pt x 346.896pt>
 File: afbeeldingen/size/hair.jpg Graphic file (type jpg)
 <use afbeeldingen/size/hair.jpg>
 Package pdftex.def Info: afbeeldingen/size/hair.jpg  used on input line 8.
 (pdftex.def)             Requested size: 199.16928pt x 149.37938pt.
-<afbeeldingen/size/gf.jpg, id=472, 1387.584pt x 669.9429pt>
+<afbeeldingen/size/gf.jpg, id=479, 462.528pt x 346.896pt>
 File: afbeeldingen/size/gf.jpg Graphic file (type jpg)
 <use afbeeldingen/size/gf.jpg>
 Package pdftex.def Info: afbeeldingen/size/gf.jpg  used on input line 16.
-(pdftex.def)             Requested size: 199.16928pt x 96.15276pt.
-[5 <./afbeeldingen/size/hair.jpg> <./afbeeldingen/size/gf.jpg>] [6]
-<afbeeldingen/size/zetmeel/zetmeel_1.png, id=500, 1387.584pt x 669.9429pt>
+(pdftex.def)             Requested size: 199.16928pt x 149.37938pt.
+ [5 <./afbeeldingen/size/hair.jpg> <./afbeeldingen/size/gf.jpg>] [6]
+<afbeeldingen/size/zetmeel/zetmeel_1.png, id=507, 462.528pt x 346.896pt>
 File: afbeeldingen/size/zetmeel/zetmeel_1.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_1.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_1.png  used on input
  line 75.
-(pdftex.def)             Requested size: 205.97214pt x 99.4444pt.
-<afbeeldingen/size/zetmeel/zetmeel_2.png, id=501, 1387.584pt x 669.9429pt>
+(pdftex.def)             Requested size: 205.97214pt x 154.48203pt.
+<afbeeldingen/size/zetmeel/zetmeel_2.png, id=508, 462.528pt x 344.0052pt>
 File: afbeeldingen/size/zetmeel/zetmeel_2.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_2.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_2.png  used on input
  line 82.
-(pdftex.def)             Requested size: 205.97214pt x 99.4444pt.
-<afbeeldingen/size/zetmeel/zetmeel_3.png, id=502, 1387.584pt x 669.9429pt>
+(pdftex.def)             Requested size: 205.97214pt x 153.19467pt.
+<afbeeldingen/size/zetmeel/zetmeel_3.png, id=509, 462.528pt x 346.896pt>
 File: afbeeldingen/size/zetmeel/zetmeel_3.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_3.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_3.png  used on input
  line 90.
-(pdftex.def)             Requested size: 205.97214pt x 99.4444pt.
-<afbeeldingen/size/zetmeel/zetmeel_4.png, id=503, 1387.584pt x 669.9429pt>
+(pdftex.def)             Requested size: 205.97214pt x 154.48203pt.
+<afbeeldingen/size/zetmeel/zetmeel_4.png, id=510, 462.528pt x 346.896pt>
 File: afbeeldingen/size/zetmeel/zetmeel_4.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_4.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_4.png  used on input
  line 97.
-(pdftex.def)             Requested size: 205.97214pt x 99.4444pt.
-<afbeeldingen/size/zetmeel/zetmeel_5.png, id=504, 1387.584pt x 669.9429pt>
+(pdftex.def)             Requested size: 205.97214pt x 154.48203pt.
+<afbeeldingen/size/zetmeel/zetmeel_5.png, id=511, 462.528pt x 346.896pt>
 File: afbeeldingen/size/zetmeel/zetmeel_5.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_5.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_5.png  used on input
  line 105.
-(pdftex.def)             Requested size: 205.97214pt x 99.4444pt.
-<afbeeldingen/size/zetmeel/zetmeel_6.png, id=505, 1387.584pt x 669.9429pt>
+(pdftex.def)             Requested size: 205.97214pt x 154.48203pt.
+<afbeeldingen/size/zetmeel/zetmeel_6.png, id=512, 462.528pt x 346.896pt>
 File: afbeeldingen/size/zetmeel/zetmeel_6.png Graphic file (type png)
 <use afbeeldingen/size/zetmeel/zetmeel_6.png>
 Package pdftex.def Info: afbeeldingen/size/zetmeel/zetmeel_6.png  used on input
  line 112.
-(pdftex.def)             Requested size: 205.97214pt x 99.4444pt.
+(pdftex.def)             Requested size: 205.97214pt x 154.48203pt.
 ) [7 <./afbeeldingen/size/zetmeel/zetmeel_1.png> <./afbeeldingen/size/zetmeel/z
 etmeel_2.png> <./afbeeldingen/size/zetmeel/zetmeel_3.png> <./afbeeldingen/size/
 zetmeel/zetmeel_4.png> <./afbeeldingen/size/zetmeel/zetmeel_5.png> <./afbeeldin
@@ -1562,20 +1561,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 627250BD8358AB49737EB56BF10DA73F;1671.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 17008 strings out of 480934
- 289982 string characters out of 2899917
+ 17006 strings out of 480934
+ 289933 string characters out of 2899917
  750469 words of memory out of 3000000
- 32384 multiletter control sequences out of 15000+200000
+ 32381 multiletter control sequences out of 15000+200000
  541484 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,100p,1128b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,100p,1128b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/f
@@ -1601,9 +1596,9 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/U
 sers/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb><C:/Users/vanlo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmtt10.pfb>
-Output written on main.pdf (25 pages, 12842737 bytes).
+Output written on main.pdf (26 pages, 7574306 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 625 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)
 

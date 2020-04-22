@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  22 APR 2020 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.13)  22 APR 2020 12:44
 entering extended mode
 **./appendix_size.tex
 (appendix_size.tex
@@ -1761,7 +1761,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
 l.75         \includegraphics
-                             [width=\textwidth, frame]{afbeeldingen/size/zet...
+                             [width=\textwidth]{afbeeldingen/size/zetmeel/ze...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1775,11 +1775,20 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.75         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   f
-l.75         \includegraphics[width=\textwidth, f
-                                                 rame]{afbeeldingen/size/zet...
+                   ]
+l.75         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1787,11 +1796,6 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -1829,7 +1833,7 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.75 ... frame]{afbeeldingen/size/zetmeel/zetmeel_
+l.75 ...twidth]{afbeeldingen/size/zetmeel/zetmeel_
                                                   1.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1934,7 +1938,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
 l.82         \includegraphics
-                             [width=\textwidth, frame]{afbeeldingen/size/zet...
+                             [width=\textwidth]{afbeeldingen/size/zetmeel/ze...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1948,11 +1952,20 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.82         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   f
-l.82         \includegraphics[width=\textwidth, f
-                                                 rame]{afbeeldingen/size/zet...
+                   ]
+l.82         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1960,11 +1973,6 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -2002,7 +2010,7 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.82 ... frame]{afbeeldingen/size/zetmeel/zetmeel_
+l.82 ...twidth]{afbeeldingen/size/zetmeel/zetmeel_
                                                   2.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2134,7 +2142,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
 l.90         \includegraphics
-                             [width=\textwidth, frame]{afbeeldingen/size/zet...
+                             [width=\textwidth]{afbeeldingen/size/zetmeel/ze...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2148,11 +2156,20 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.90         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   f
-l.90         \includegraphics[width=\textwidth, f
-                                                 rame]{afbeeldingen/size/zet...
+                   ]
+l.90         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2160,11 +2177,6 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -2202,7 +2214,7 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.90 ... frame]{afbeeldingen/size/zetmeel/zetmeel_
+l.90 ...twidth]{afbeeldingen/size/zetmeel/zetmeel_
                                                   3.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2307,7 +2319,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
 l.97         \includegraphics
-                             [width=\textwidth, frame]{afbeeldingen/size/zet...
+                             [width=\textwidth]{afbeeldingen/size/zetmeel/ze...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2321,11 +2333,20 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.97         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   f
-l.97         \includegraphics[width=\textwidth, f
-                                                 rame]{afbeeldingen/size/zet...
+                   ]
+l.97         \includegraphics[width=\textwidth]
+                                               {afbeeldingen/size/zetmeel/ze...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2333,11 +2354,6 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -2375,7 +2391,7 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.97 ... frame]{afbeeldingen/size/zetmeel/zetmeel_
+l.97 ...twidth]{afbeeldingen/size/zetmeel/zetmeel_
                                                   4.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2507,7 +2523,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
 l.105         \includegraphics
-                              [width=\textwidth, frame]{afbeeldingen/size/ze...
+                              [width=\textwidth]{afbeeldingen/size/zetmeel/z...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2521,11 +2537,20 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.105         \includegraphics[width=\textwidth]
+                                                {afbeeldingen/size/zetmeel/z...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   f
-l.105         \includegraphics[width=\textwidth, f
-                                                  rame]{afbeeldingen/size/ze...
+                   ]
+l.105         \includegraphics[width=\textwidth]
+                                                {afbeeldingen/size/zetmeel/z...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2533,11 +2558,6 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -2575,7 +2595,7 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.105 ...frame]{afbeeldingen/size/zetmeel/zetmeel_
+l.105 ...width]{afbeeldingen/size/zetmeel/zetmeel_
                                                   5.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2680,7 +2700,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
 l.112         \includegraphics
-                              [width=\textwidth, frame]{afbeeldingen/size/ze...
+                              [width=\textwidth]{afbeeldingen/size/zetmeel/z...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2694,11 +2714,20 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.112         \includegraphics[width=\textwidth]
+                                                {afbeeldingen/size/zetmeel/z...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   f
-l.112         \includegraphics[width=\textwidth, f
-                                                  rame]{afbeeldingen/size/ze...
+                   ]
+l.112         \includegraphics[width=\textwidth]
+                                                {afbeeldingen/size/zetmeel/z...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2706,11 +2735,6 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -2748,7 +2772,7 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.112 ...frame]{afbeeldingen/size/zetmeel/zetmeel_
+l.112 ...width]{afbeeldingen/size/zetmeel/zetmeel_
                                                   6.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.

@@ -9,9 +9,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from skimage import io
 
-
-image = io.imread('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/size/zetmeel/zetmeel_7.png')
+plt.clf()
+image = io.imread("C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/RP/Magn 3 fiber.jpg")
 
 img = plt.imshow(image)
-plt.show()
-plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/size/zetmeel/zetmeel_7.png')
+
+plt.savefig('C:/Users/vanlo/Documents/GitHub/MicroscopyRP_Git/verslag/afbeeldingen/size/gf.jpg')
