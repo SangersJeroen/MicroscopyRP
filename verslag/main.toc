@@ -17,11 +17,11 @@
 \contentsline {subsection}{\numberline {4.1}Calibration}{8}{subsection.4.1}% 
 \contentsline {subsection}{\numberline {4.2}Resolving power}{8}{subsection.4.2}% 
 \contentsline {subsection}{\numberline {4.3}Size measurements}{9}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Birefringence in cellophane tape}{11}{subsection.4.4}% 
-\contentsline {subsection}{\numberline {4.5}Birefringence of a crystal}{11}{subsection.4.5}% 
-\contentsline {subsection}{\numberline {4.6}Image improvements methods}{12}{subsection.4.6}% 
-\contentsline {section}{\numberline {5}Conclusions}{15}{section.5}% 
-\contentsline {section}{List of references}{16}{section.5}% 
+\contentsline {subsection}{\numberline {4.4}Birefringence in cellophane tape}{10}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Birefringence of a crystal}{10}{subsection.4.5}% 
+\contentsline {subsection}{\numberline {4.6}Image improvements methods}{11}{subsection.4.6}% 
+\contentsline {section}{\numberline {5}Conclusions}{13}{section.5}% 
+\contentsline {section}{List of references}{14}{section.5}% 
 \contentsline {section}{Appendices}{i}{section*.17}% 
 \contentsline {subsection}{\numberline {Appendix A}Leica DM EP manual}{i}{subsection.Alph0.1}% 
 \contentsline {subsection}{\numberline {Appendix B}Calibration}{iv}{subsection.Alph0.2}% 
